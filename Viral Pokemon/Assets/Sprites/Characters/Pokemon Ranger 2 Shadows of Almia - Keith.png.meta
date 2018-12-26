@@ -1,0 +1,3165 @@
+fileFormatVersion: 2
+guid: ad3630286762bce45864cdd109bead5b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pokemon Ranger 2 Shadows of Almia - Keith_0
+    21300002: Pokemon Ranger 2 Shadows of Almia - Keith_1
+    21300004: Pokemon Ranger 2 Shadows of Almia - Keith_2
+    21300006: Pokemon Ranger 2 Shadows of Almia - Keith_3
+    21300008: Pokemon Ranger 2 Shadows of Almia - Keith_4
+    21300010: Pokemon Ranger 2 Shadows of Almia - Keith_5
+    21300012: Pokemon Ranger 2 Shadows of Almia - Keith_6
+    21300014: Pokemon Ranger 2 Shadows of Almia - Keith_7
+    21300016: Pokemon Ranger 2 Shadows of Almia - Keith_8
+    21300018: Pokemon Ranger 2 Shadows of Almia - Keith_9
+    21300020: Pokemon Ranger 2 Shadows of Almia - Keith_10
+    21300022: Pokemon Ranger 2 Shadows of Almia - Keith_11
+    21300024: Pokemon Ranger 2 Shadows of Almia - Keith_12
+    21300026: Pokemon Ranger 2 Shadows of Almia - Keith_13
+    21300028: Pokemon Ranger 2 Shadows of Almia - Keith_14
+    21300030: Pokemon Ranger 2 Shadows of Almia - Keith_15
+    21300032: Pokemon Ranger 2 Shadows of Almia - Keith_16
+    21300034: Pokemon Ranger 2 Shadows of Almia - Keith_17
+    21300036: Pokemon Ranger 2 Shadows of Almia - Keith_18
+    21300038: Pokemon Ranger 2 Shadows of Almia - Keith_19
+    21300040: Pokemon Ranger 2 Shadows of Almia - Keith_20
+    21300042: Pokemon Ranger 2 Shadows of Almia - Keith_21
+    21300044: Pokemon Ranger 2 Shadows of Almia - Keith_22
+    21300046: Pokemon Ranger 2 Shadows of Almia - Keith_23
+    21300048: Pokemon Ranger 2 Shadows of Almia - Keith_24
+    21300050: Pokemon Ranger 2 Shadows of Almia - Keith_25
+    21300052: Pokemon Ranger 2 Shadows of Almia - Keith_26
+    21300054: Pokemon Ranger 2 Shadows of Almia - Keith_27
+    21300056: Pokemon Ranger 2 Shadows of Almia - Keith_28
+    21300058: Pokemon Ranger 2 Shadows of Almia - Keith_29
+    21300060: Pokemon Ranger 2 Shadows of Almia - Keith_30
+    21300062: Pokemon Ranger 2 Shadows of Almia - Keith_31
+    21300064: Pokemon Ranger 2 Shadows of Almia - Keith_32
+    21300066: Pokemon Ranger 2 Shadows of Almia - Keith_33
+    21300068: Pokemon Ranger 2 Shadows of Almia - Keith_34
+    21300070: Pokemon Ranger 2 Shadows of Almia - Keith_35
+    21300072: Pokemon Ranger 2 Shadows of Almia - Keith_36
+    21300074: Pokemon Ranger 2 Shadows of Almia - Keith_37
+    21300076: Pokemon Ranger 2 Shadows of Almia - Keith_38
+    21300078: Pokemon Ranger 2 Shadows of Almia - Keith_39
+    21300080: Pokemon Ranger 2 Shadows of Almia - Keith_40
+    21300082: Pokemon Ranger 2 Shadows of Almia - Keith_41
+    21300084: Pokemon Ranger 2 Shadows of Almia - Keith_42
+    21300086: Pokemon Ranger 2 Shadows of Almia - Keith_43
+    21300088: Pokemon Ranger 2 Shadows of Almia - Keith_44
+    21300090: Pokemon Ranger 2 Shadows of Almia - Keith_45
+    21300092: Pokemon Ranger 2 Shadows of Almia - Keith_46
+    21300094: Pokemon Ranger 2 Shadows of Almia - Keith_47
+    21300096: Pokemon Ranger 2 Shadows of Almia - Keith_48
+    21300098: Pokemon Ranger 2 Shadows of Almia - Keith_49
+    21300100: Pokemon Ranger 2 Shadows of Almia - Keith_50
+    21300102: Pokemon Ranger 2 Shadows of Almia - Keith_51
+    21300104: Pokemon Ranger 2 Shadows of Almia - Keith_52
+    21300106: Pokemon Ranger 2 Shadows of Almia - Keith_53
+    21300108: Pokemon Ranger 2 Shadows of Almia - Keith_54
+    21300110: Pokemon Ranger 2 Shadows of Almia - Keith_55
+    21300112: Pokemon Ranger 2 Shadows of Almia - Keith_56
+    21300114: Pokemon Ranger 2 Shadows of Almia - Keith_57
+    21300116: Pokemon Ranger 2 Shadows of Almia - Keith_58
+    21300118: Pokemon Ranger 2 Shadows of Almia - Keith_59
+    21300120: Pokemon Ranger 2 Shadows of Almia - Keith_60
+    21300122: Pokemon Ranger 2 Shadows of Almia - Keith_61
+    21300124: Pokemon Ranger 2 Shadows of Almia - Keith_62
+    21300126: Pokemon Ranger 2 Shadows of Almia - Keith_63
+    21300128: Pokemon Ranger 2 Shadows of Almia - Keith_64
+    21300130: Pokemon Ranger 2 Shadows of Almia - Keith_65
+    21300132: Pokemon Ranger 2 Shadows of Almia - Keith_66
+    21300134: Pokemon Ranger 2 Shadows of Almia - Keith_67
+    21300136: Pokemon Ranger 2 Shadows of Almia - Keith_68
+    21300138: Pokemon Ranger 2 Shadows of Almia - Keith_69
+    21300140: Pokemon Ranger 2 Shadows of Almia - Keith_70
+    21300142: Pokemon Ranger 2 Shadows of Almia - Keith_71
+    21300144: Pokemon Ranger 2 Shadows of Almia - Keith_72
+    21300146: Pokemon Ranger 2 Shadows of Almia - Keith_73
+    21300148: Pokemon Ranger 2 Shadows of Almia - Keith_74
+    21300150: Pokemon Ranger 2 Shadows of Almia - Keith_75
+    21300152: Pokemon Ranger 2 Shadows of Almia - Keith_76
+    21300154: Pokemon Ranger 2 Shadows of Almia - Keith_77
+    21300156: Pokemon Ranger 2 Shadows of Almia - Keith_78
+    21300158: Pokemon Ranger 2 Shadows of Almia - Keith_79
+    21300160: Pokemon Ranger 2 Shadows of Almia - Keith_80
+    21300162: Pokemon Ranger 2 Shadows of Almia - Keith_81
+    21300164: Pokemon Ranger 2 Shadows of Almia - Keith_82
+    21300166: Pokemon Ranger 2 Shadows of Almia - Keith_83
+    21300168: Pokemon Ranger 2 Shadows of Almia - Keith_84
+    21300170: Pokemon Ranger 2 Shadows of Almia - Keith_85
+    21300172: Pokemon Ranger 2 Shadows of Almia - Keith_86
+    21300174: Pokemon Ranger 2 Shadows of Almia - Keith_87
+    21300176: Pokemon Ranger 2 Shadows of Almia - Keith_88
+    21300178: Pokemon Ranger 2 Shadows of Almia - Keith_89
+    21300180: Pokemon Ranger 2 Shadows of Almia - Keith_90
+    21300182: Pokemon Ranger 2 Shadows of Almia - Keith_91
+    21300184: Pokemon Ranger 2 Shadows of Almia - Keith_92
+    21300186: Pokemon Ranger 2 Shadows of Almia - Keith_93
+    21300188: Pokemon Ranger 2 Shadows of Almia - Keith_94
+    21300190: Pokemon Ranger 2 Shadows of Almia - Keith_95
+    21300192: Pokemon Ranger 2 Shadows of Almia - Keith_96
+    21300194: Pokemon Ranger 2 Shadows of Almia - Keith_97
+    21300196: Pokemon Ranger 2 Shadows of Almia - Keith_98
+    21300198: Pokemon Ranger 2 Shadows of Almia - Keith_99
+    21300200: Pokemon Ranger 2 Shadows of Almia - Keith_100
+    21300202: Pokemon Ranger 2 Shadows of Almia - Keith_101
+    21300204: Pokemon Ranger 2 Shadows of Almia - Keith_102
+    21300206: Pokemon Ranger 2 Shadows of Almia - Keith_103
+    21300208: Pokemon Ranger 2 Shadows of Almia - Keith_104
+    21300210: Pokemon Ranger 2 Shadows of Almia - Keith_105
+    21300212: Pokemon Ranger 2 Shadows of Almia - Keith_106
+    21300214: Pokemon Ranger 2 Shadows of Almia - Keith_107
+    21300216: Pokemon Ranger 2 Shadows of Almia - Keith_108
+    21300218: Pokemon Ranger 2 Shadows of Almia - Keith_109
+    21300220: Pokemon Ranger 2 Shadows of Almia - Keith_110
+    21300222: Pokemon Ranger 2 Shadows of Almia - Keith_111
+    21300224: Pokemon Ranger 2 Shadows of Almia - Keith_112
+    21300226: Pokemon Ranger 2 Shadows of Almia - Keith_113
+    21300228: Pokemon Ranger 2 Shadows of Almia - Keith_114
+    21300230: Pokemon Ranger 2 Shadows of Almia - Keith_115
+    21300232: Pokemon Ranger 2 Shadows of Almia - Keith_116
+    21300234: Pokemon Ranger 2 Shadows of Almia - Keith_117
+    21300236: Pokemon Ranger 2 Shadows of Almia - Keith_118
+    21300238: Pokemon Ranger 2 Shadows of Almia - Keith_119
+    21300240: Pokemon Ranger 2 Shadows of Almia - Keith_120
+    21300242: Pokemon Ranger 2 Shadows of Almia - Keith_121
+    21300244: Pokemon Ranger 2 Shadows of Almia - Keith_122
+    21300246: Pokemon Ranger 2 Shadows of Almia - Keith_123
+    21300248: Pokemon Ranger 2 Shadows of Almia - Keith_124
+    21300250: Pokemon Ranger 2 Shadows of Almia - Keith_125
+    21300252: Pokemon Ranger 2 Shadows of Almia - Keith_126
+    21300254: Pokemon Ranger 2 Shadows of Almia - Keith_127
+    21300256: Pokemon Ranger 2 Shadows of Almia - Keith_128
+    21300258: Pokemon Ranger 2 Shadows of Almia - Keith_129
+    21300260: Pokemon Ranger 2 Shadows of Almia - Keith_130
+    21300262: Pokemon Ranger 2 Shadows of Almia - Keith_131
+    21300264: Pokemon Ranger 2 Shadows of Almia - Keith_132
+    21300266: Pokemon Ranger 2 Shadows of Almia - Keith_133
+    21300268: Pokemon Ranger 2 Shadows of Almia - Keith_134
+    21300270: Pokemon Ranger 2 Shadows of Almia - Keith_135
+    21300272: Pokemon Ranger 2 Shadows of Almia - Keith_136
+    21300274: Pokemon Ranger 2 Shadows of Almia - Keith_137
+    21300276: Pokemon Ranger 2 Shadows of Almia - Keith_138
+    21300278: Pokemon Ranger 2 Shadows of Almia - Keith_139
+    21300280: Pokemon Ranger 2 Shadows of Almia - Keith_140
+    21300282: Pokemon Ranger 2 Shadows of Almia - Keith_141
+    21300284: Pokemon Ranger 2 Shadows of Almia - Keith_142
+    21300286: Pokemon Ranger 2 Shadows of Almia - Keith_143
+    21300288: Pokemon Ranger 2 Shadows of Almia - Keith_144
+    21300290: Pokemon Ranger 2 Shadows of Almia - Keith_145
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 251
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f1ed46eda2dcf4b8195a5fa37f813c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 251
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4f06e4e2f746c4aab33ea0a7aefb9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 251
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c182d44cff8a04fa2b43a9e36ce5b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 251
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9358d9aa8feaa548afe5e7511c5c284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 251
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710fc626c5d23744888755c766c64b27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 219
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf621a5754028a848bc4182479028719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 252
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72c309d671d40148b96f4f3eb2fd9b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa2ade7753a32544819fb404c7458d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 252
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b347f00d2d7001541a4e453a0bc9347b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 252
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a410d1c21efd34419fe8ed0851a23e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 252
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e04f3d526d945543a1ca495299c8d6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 216
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6873d43491bc05741b2f97bea06c4678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 233
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf9c4aa7eb04bf4298a52bed3b685a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 216
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35d87b0671d1ff44827d806c58ff14b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 216
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956ccb29ba7f55d499536d9dd227fb4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 216
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b0bd4e74a45ac4ab78ffcf4dd03928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 216
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92169f727b29e784fb952635c9d56d35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 217
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfab99ccd2369c47ac8b5d0ac093acf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 212
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72bdb7611f43bd43b77386a35f1dc52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 212
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d715e1ffaac85248b73b23a964b74ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_20
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 212
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e950c025ccdde664a976a7d70ecbf2cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_21
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 237
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a138f85f8b6e45d4f8daef7279c15f20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 213
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8f2c729326fac4b9519995f014fcdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 233
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda0f10c99e448c42a49039953585889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 213
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccf05f91572d814baf683ef7d7f8e1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 213
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4169b05189e10804a9b9e90d50fb500f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_26
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 216
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee3ebd249fc3bb41ba402f7159345ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_27
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 216
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d846c461d33b9944b4b36ef84076c68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_28
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 232
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61465a3a34065146b6f989100863f89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_29
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 214
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45f4394b872f4a4a8be602c4dea33a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_30
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 209
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eada6a8a9238ade49b99f5a701d5fdb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 209
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86071fbaaff6fa946af433d302a588a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_32
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 209
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeb37a633eeee546aba393a7d582108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_33
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 216
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e569115be71271b4389b7b28bed2b69f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 216
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f74056cb48c2243995a0759f5eb961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 213
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4075a60bd4bed3a459fe4c8a1e451d15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_36
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 213
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8733337305a4047af6caa6d358cd85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 213
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ad785944069e64293c90fd069e91c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 184
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e4185e264ea4544ad736cd3bcf070a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_39
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 184
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f13c5481a84094d9b29c919bcf9c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_40
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 186
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b66939530b334438bcb8be3020697f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_41
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 188
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147be4e8e1284a943bd77f855c6a4a64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 189
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28994dde8857cf4468d6afec61a77dc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_43
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 185
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73edaef809e2c8c4495c5b47bc3a15af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 200
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b9b97e8e2190345add43986ffc59fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_45
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 201
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8f64e17c71c5749a76a48b68c36f02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_46
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 201
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80f3b80997414d4cba3039dc95df293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa700c7df93bc44818a7ae0a242efa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_48
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 184
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2e0bb201042c24691857d46d2cd878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_49
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 184
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae08142f26866934a91274f8ac3673be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_50
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 202
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd49c9a9a866ea44a34af46157edb7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_51
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 187
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8e3c4e4e5f4174dad62c2378cf4219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_52
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 202
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8554240e2f00a1447b472dff2945d324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 181
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a119ee810a5fa4b8b0a4241be24d57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 181
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96923252267945c4c9b067b2de7a88fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 181
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b3861580eac05428b03f48923515d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_56
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 181
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8590842f37b884447bba92d7e3442d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 183
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8609e6b4a8be742bcfe6e64c0e45ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_58
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 185
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d777756c962171341b5ab9834cce883e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_59
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 186
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1874546446c45c488419a8ebd1c9680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_60
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 182
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1583e1a2bc8ecc2418c5296b2339f925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_61
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 181
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb50d1ea824d710408a96c26fb4c57e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_62
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 198
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d2001c6c41eb04dae8875ab1815380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_63
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 185
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05916155d5cfc549af8c9b6651d04ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_64
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 186
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9708434f44692154dadc3992022a84c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_65
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b16356b8e72c847945468dd954396d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 186
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281b21ba4f187bd4d88bc157c0950e49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_67
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 183
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d103e1eee0e86479b9493cfed7afa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_68
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 182
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2675d045e0c924b4ea66134008c32ac8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_69
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 184
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f0fa4582651b4f857579f28ce04bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_70
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfed10c2c9425b4e88ae6064e8fcbd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_71
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa01697d7b12ff4b83debd836dc39ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_72
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb21fdfd65d8814aa1c31b51962c96e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_73
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cabdd61f83ff44c9e14064e9945d0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_74
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb1f825e61c6d4dad708e4f0b9c667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_75
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe77bfde7fcb6544bfee25decd72982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_76
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b894024f848fd346903f4cedc8df091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_77
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c33fe52cea7d354d8c3bb8fd9689afc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_78
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac19ea418dd31904191b5b30b4bc2598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_79
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dfc55ff9885704c98543b3726bdd41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee9856bdbeba98469f94b16568dad50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_81
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c741eed2b5dc35244b862bc267cdfb9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_82
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 166
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4137340282a0048bdd01663ff48d56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_83
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 166
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364f7aca0ad615f41aa0e4d4aae778e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_84
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 166
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56966d7589672fd49afde2fd7cdc90f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_85
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b149b7fc4746fd47ac2a27489409237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_86
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929272fa4d58bdc4c9c66e4b9f73289c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_87
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e3b43d9d402f446872a4ec8dbdc2e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7eb549517a9a5a408f0636bef91b4f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_89
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d21c5fd0bed20448b1e4bc63dca825a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_90
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2402713ece46d14f9e2ef9ffa7befe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_91
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 161
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9965f652e48244c4fa7837a2fee480d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_92
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 161
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2c2f0d23f52a34a8e61a1e6496bdf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 161
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a498ac7ae31d3694685a6ea160500a4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_94
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96860764c553d8b4cbee8a1c22bd7a31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_95
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24633d108277ae54c905ce3ba351d90b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_96
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 161
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c64518a587f174e9ca715b35fb17c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_97
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8104ed95c61dbaa49a190f431f3e92ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_98
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6760978168d639488b803376dcea7d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_99
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd648ed0f42fdfe438a671ff51bc4a75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_100
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 129
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68403db99168af47a33d7df2c44a6e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_101
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 129
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17b189078f9cb43a4a85eb37c6adde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 130
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3111c64b799a29f49b0baf1e2b0d201f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_103
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b5d09a642b20947a00d1b60e429249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_104
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 130
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3a745826f47554e92de0f2d1c9b51d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_105
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 128
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba47b4f3ea07a740a833b1b354bfcec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_106
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 130
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685dce40966a09a41b6217b6ad46b2bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_107
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 128
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69885a6e3ac411843b1cb243f5d22db9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_108
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 128
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92e70dd21897134d9e29158bb75ce6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_109
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 128
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaf04ab815d9d849a5453cf8adc29c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_110
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 128
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf10852424af6498f74b6fd61eb1d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_111
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 126
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41614b3dbd05994f911a111455fa97d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_112
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 126
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced3d62e5edb03d41b01379daf5a6f06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_113
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 127
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e284d369c1622924d817da89244e88c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_114
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 125
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a7627750e5f947bf8397620c4d45a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_115
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 127
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73e8fdacd1233b4c82c48f6a9ad938b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_116
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 125
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02a525d02d430b488591c13dc716fa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_117
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 127
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd48da29e380e9942bb45b4e931f2b65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_118
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 125
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255891af62434a847b78db67231e88fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_119
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 125
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888eddee5532f71439522283d88b1dfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_120
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 125
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bb3d2d22103a54cb7f5edf0e2ee063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_121
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 125
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b615bf6535eca4ba9426f07723f37d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_122
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 91
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4876b6c1a3224ad4cacb2c275daa51ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 93
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bfb1e996dff64498ceb590416d6103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_124
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 93
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081236a91626fea43ab823e7c64cd5ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_125
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 91
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f9e313945d96448b73eadb14630b2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_126
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 92
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15655d51a06ea894984e88d16d4e2065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_127
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 91
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be096191b8401934c9617bdce30cf944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_128
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 93
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadcfa188e8cc0742b9e0f889f3b165c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_129
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 94
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae61e013802e7ce4aa78c2edae063121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_130
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 91
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ec0e75f313d654baca0a830d10bde3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_131
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 92
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473c1fc2721c33741bbda12e4f702bbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_132
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 91
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304571fe9a5a5eb44ae931d527985c0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_133
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 91
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5b2fb652990cd478b376e23ca5521a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_134
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 88
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99ebd4ca4246fc43a380a3f99175b5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_135
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c891e441bc83c44383454adf30334f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_136
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 90
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415e73cfb29161b43a1c042a14e6e43a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_137
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 88
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4085337e2ac842a45ac1244f432c3768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_138
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 89
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3302ab6e344ed884283f3bc0560a4009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 88
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46030a5488555b44282d75e60cb7aa13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_140
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 90
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001de1c6e2c397d45827cbe694635c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_141
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 91
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43c52cfadb154340a88212fe2cf72d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_142
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 88
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb405a37bd808418edeefcdf03dfc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_143
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 89
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8d55a138eb1d14bbb9ff1fb4356d9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_144
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 88
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb905318f3b5245ae45e60b6891b75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokemon Ranger 2 Shadows of Almia - Keith_145
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 88
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba08e6c44712fc34686ed4b19e96eaa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c3c9136757bf99c42b1da737f60d8172
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
