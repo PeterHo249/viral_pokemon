@@ -1,16 +1,23 @@
 fileFormatVersion: 2
-guid: 720c65232e66dbc44992e8eb346152b6
+guid: 622dc26e18b8bd84f9da55425d20ae3f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_0
-    21300002: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_1
-    21300004: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_2
-    21300006: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_3
-    21300008: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_4
-    21300010: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_5
-    21300012: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_6
-    21300014: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_7
-    21300016: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_8
+    21300000: Player_0
+    21300002: Player_1
+    21300004: Player_2
+    21300006: Player_3
+    21300008: Player_4
+    21300010: Player_5
+    21300012: Player_6
+    21300014: Player_7
+    21300016: Player_8
+    21300018: Player_9
+    21300020: Player_10
+    21300022: Player_11
+    21300024: Player_12
+    21300026: Player_13
+    21300028: Player_14
+    21300030: Player_15
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -93,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_0
+      name: Player_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 418
-        width: 256
-        height: 207
+        x: 14
+        y: 196
+        width: 34
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,19 +114,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee8be333d8fbdcf45a28d2d067fb1f2f
+      spriteID: 9d4f7ab9d0793c041a54ce7a60610f43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_1
+      name: Player_1
       rect:
         serializedVersion: 2
-        x: 258
-        y: 418
-        width: 256
-        height: 207
+        x: 78
+        y: 194
+        width: 34
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,19 +134,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25fdd0ac35af804095bd54025999796
+      spriteID: 994e14b183646a347ad0876fda58cbe3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_2
+      name: Player_2
       rect:
         serializedVersion: 2
-        x: 515
-        y: 418
-        width: 256
-        height: 207
+        x: 142
+        y: 196
+        width: 34
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,19 +154,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2feaf13ac615f8419bdcddc9d56ba86
+      spriteID: 6679100b63a18884d8139830751233a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_3
+      name: Player_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 210
-        width: 256
-        height: 207
+        x: 206
+        y: 194
+        width: 34
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,19 +174,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad63a7b79d7093c41aa083a1f3e8db56
+      spriteID: 44255c23da0e5944abf79d5b85135b12
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_4
+      name: Player_4
       rect:
         serializedVersion: 2
-        x: 258
-        y: 210
-        width: 256
-        height: 207
+        x: 16
+        y: 132
+        width: 32
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,19 +194,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 510a207f13a409b4c979ee15afb80927
+      spriteID: a25f1898605a49742a46f0671a1ac1bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_5
+      name: Player_5
       rect:
         serializedVersion: 2
-        x: 515
-        y: 210
-        width: 256
-        height: 207
+        x: 80
+        y: 132
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,19 +214,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a6b5ba5830fbb459af466279f6dab8
+      spriteID: 944da36392345c749a51eadaebc5f1e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_6
+      name: Player_6
       rect:
         serializedVersion: 2
-        x: 44
-        y: 61
-        width: 152
-        height: 77
+        x: 144
+        y: 132
+        width: 32
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,19 +234,139 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57d63a230da3dd34b94926419956ce5c
+      spriteID: 0ad1f00dcdac9e74fad3e42f63cb663f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_7
+      name: Player_7
       rect:
         serializedVersion: 2
-        x: 258
+        x: 208
+        y: 134
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95d2129632576f4ba3c9097483b568c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498cc69091e71944dbcb26e37b8c9722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 68
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf101a2e6977794c8999c1d8ab15210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 68
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ae788754f9974cb3b9aaa04c7fe4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 70
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37771ea46a31ae6409270466c0e062b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518514e038b40cb419d70b2826c5a350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_13
+      rect:
+        serializedVersion: 2
+        x: 78
         y: 2
-        width: 256
-        height: 207
+        width: 34
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,19 +374,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9728ee5adf74dce4793e581d376308ea
+      spriteID: f69903981b28f524b8e88e7d4263221a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds Set 3_8
+      name: Player_14
       rect:
         serializedVersion: 2
-        x: 515
-        y: 2
-        width: 256
-        height: 207
+        x: 142
+        y: 4
+        width: 34
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,7 +394,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c87c7108e1440846b2875fe2d5dfcfb
+      spriteID: 61470f75df8aad5489e896f1e943e817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa246e2bbc4e9204eacabb11ddc759ad
       vertices: []
       indices: 
       edges: []
@@ -275,7 +422,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e233e5c63c3797347b16555382b989c2
+    spriteID: 9e3fc4f1a92a6ab4f80e15614116a68d
     vertices: []
     indices: 
     edges: []

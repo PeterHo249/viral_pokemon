@@ -1,7 +1,68 @@
 fileFormatVersion: 2
 guid: a971673a2dcc0564c89cf91b3b6f58ec
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_0
+    21300002: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_1
+    21300004: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_2
+    21300006: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_3
+    21300008: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_4
+    21300010: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_5
+    21300012: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_6
+    21300014: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_7
+    21300016: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_8
+    21300018: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_9
+    21300020: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_10
+    21300022: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_11
+    21300024: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_12
+    21300026: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_13
+    21300028: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_14
+    21300030: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_15
+    21300032: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_16
+    21300034: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_17
+    21300036: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_18
+    21300038: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_19
+    21300040: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_20
+    21300042: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_21
+    21300044: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_22
+    21300046: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_23
+    21300048: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_24
+    21300050: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_25
+    21300052: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_26
+    21300054: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_27
+    21300056: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_28
+    21300058: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_29
+    21300060: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_30
+    21300062: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_31
+    21300064: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_32
+    21300066: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_33
+    21300068: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_34
+    21300070: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_35
+    21300072: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_36
+    21300074: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_37
+    21300076: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_38
+    21300078: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_39
+    21300080: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_40
+    21300082: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_41
+    21300084: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_42
+    21300086: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_43
+    21300088: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_44
+    21300090: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_45
+    21300092: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_46
+    21300094: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_47
+    21300096: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_48
+    21300098: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_49
+    21300100: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_50
+    21300102: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_51
+    21300104: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_52
+    21300106: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_53
+    21300108: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_54
+    21300110: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_55
+    21300112: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_56
+    21300114: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_57
+    21300116: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_58
+    21300118: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_59
+    21300120: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_60
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +101,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +130,1240 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2038
+        width: 275
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e2a4c294d20b4408b1e45994121edc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2038
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be8110857913884587119bb7f89d875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2038
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9754154843806294eba778e45f0ac939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 2038
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c906c795f2a8d4483b881afec19856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 2038
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe8aad33584c94408d0f473519ae11b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 2038
+        width: 275
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d536877f5b6183a428567591e0619d2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1823
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83420730b7f36584789861c79d32e318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1823
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d3ee3c7b84ce04cb9917b34ae35f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_8
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1823
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e0f5668db3b9e4f9fb9e4276cd6aff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_9
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1823
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2663723e8d988449424d6bc144423d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_10
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1823
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ed1224a0dd7f742a368e09283ebb13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_11
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1823
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab06ec29fa6a3e43897a944ba73abe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1607
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ebd24833aa6bc48afee7efb157dc2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1607
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d2c1f62de2c58469e3920ed4fa17a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_14
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1607
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adf9316217305645b68058a2d9fc4b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_15
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1607
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf338248e2543e44a916d298a001780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_16
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1607
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3794f17386c05e6418370b28f1fc5d28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_17
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1607
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb75d4b067aee4447a58d8506bf707a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1391
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229d21b42b15fc54aa4a9f7d8c150a8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_19
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1391
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237b316cd14da0745bed8bd2d077aa6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_20
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1391
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ecab670f013f64497f14fb9388fe2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_21
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1391
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459fcc89b6e3f114280c48afc97480d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_22
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1391
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d0d9c92abc81640a1b6817f21d7df5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_23
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1391
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180b354070226f743b746f93853ce404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1175
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d959af2efe5a9e4388cdc67de3e7b12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_25
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1175
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d583ca6ac9df47aa2f96188da771d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_26
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1175
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d4cfbf6f479bc419055a0b95e6dc27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_27
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1175
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25c85fc4d81972468cff40eec43c17c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_28
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1175
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a6676b67dbdd24aa4bd379fa2f876d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_29
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1175
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe9fcb1eafd2c74eb7a489c43a626de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 959
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b8c3fb5b03c8a4190ca8040f71ea04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 959
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6ab9f0bd46eff408abd92cc3c10980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_32
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 959
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1714ee97ace0624297b913b780e37f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_33
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 959
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08fd20a2d537dc4691f3f71ddc3110e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_34
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 959
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51dfac513e68f14e96a881239f9303c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_35
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 959
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c59f379466fc24bb8c659c84b213ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 743
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2990c29651b9f458e667a4fd6e1071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_37
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 743
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e749e51c9f1449ba84eaaf30a66cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_38
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 743
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec95e3d109465b34f88abb46038890ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_39
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 743
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1394d7e33a7425c4cad643dc3a102b0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_40
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 743
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81542653cf68665468f70f89b008c1fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_41
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 743
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d686753b9155834d87bd2be9df3fcc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 527
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d859e5edbcdcfa41840a3219af1d883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_43
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 527
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78811691a7626ed4bbf22f407d0e62be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_44
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 527
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af3ed5702e9d0d4fb7104d1d6ef5fd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_45
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 527
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36458cb9d9bc9644fab8df044ed6b49c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_46
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 527
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4098785c7eee3ab47b5386e5972a72e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_47
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 527
+        width: 275
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ebd8ac81b8fed4d8de3a60ad8ec98f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 311
+        width: 275
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb299476f02717449b0b6f3d5a0e18c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_49
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 311
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ffcc812171bbb4b914d6f334985e51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_50
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 311
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b33d1b55e6707d40bbeef1c972c5731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_51
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 311
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5e9803c05859f41a86fecc41a9be14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_52
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 311
+        width: 274
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273b1e63da86b4040aab086a4420a9b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_53
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 311
+        width: 275
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2750178af2d789c43a35490306856e09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 93
+        width: 275
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5972b97677e1084a802d47bf04dbc2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_55
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 94
+        width: 274
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f180adaee6189884a86c8b6fd9fc3a87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_56
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 93
+        width: 275
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20f108c6edcd3448810b89ba7c2d58f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_57
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 93
+        width: 275
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e739bdd83ff61044a8b67a4920405f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_58
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 94
+        width: 274
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15442fd2a7033c438e576b0b4732546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_59
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 93
+        width: 275
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94a36a859d68ab43be2e174ca3b79d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Ranger 2 Shadows of Almia - Backgrounds_60
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 7
+        width: 98
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f304c31d2c17e84ba81221ce570a6a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
