@@ -22,10 +22,16 @@ public class ButtonHandler : MonoBehaviour
         if (level > levelHandler.level)
         {
             print("You can't play this level");
-        } else
+        }
+        else
         {
             print(level);
         }
+    }
+
+    public void OnMenuTapped(string menu)
+    {
+        print(menu);
     }
 
     public void OnBackTapped(string scene)
