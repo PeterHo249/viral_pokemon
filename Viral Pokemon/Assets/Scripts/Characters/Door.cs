@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Door : MonoBehaviour
 {
-    public int Levelload = 0;
+    public string Levelload;
     public Text InputText;
     // Start is called before the first frame update
     void Start()

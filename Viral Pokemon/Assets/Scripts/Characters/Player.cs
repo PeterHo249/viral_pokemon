@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float speed = 5f, maxspeed = 5, change = 20f;
     public bool up = false, down = false, left = false, right = false;

@@ -362,7 +362,42 @@ PrefabInstance:
     - target: {fileID: 312016730397193382, guid: 189a84dee1a1417448084537ba208096,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level
+      value: MapScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 312016731182431830, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -477.766
+      objectReference: {fileID: 0}
+    - target: {fileID: 312016731182431830, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3802454
+      objectReference: {fileID: 0}
+    - target: {fileID: 312016730006253159, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_Text
+      value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 312016730492142527, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_Text
+      value: Shop
+      objectReference: {fileID: 0}
+    - target: {fileID: 312016730927466494, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_Text
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 312016731495426477, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_Text
+      value: Infomation
+      objectReference: {fileID: 0}
+    - target: {fileID: 312016731606693029, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_Text
+      value: Training
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 189a84dee1a1417448084537ba208096, type: 3}

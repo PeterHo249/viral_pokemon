@@ -179,10 +179,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button10
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 549695773}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -304,19 +309,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button10
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 549695773}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -520,10 +520,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button11
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 2096663759}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -645,19 +650,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button11
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 2096663759}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -681,10 +681,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button5
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1580171491}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -806,19 +811,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button5
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1580171491}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -842,10 +842,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button2
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 602674128}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -967,19 +972,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button2
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 602674128}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -997,11 +997,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: m_Name
-      value: Back
-      objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1110,7 +1105,7 @@ PrefabInstance:
     - target: {fileID: 3324648558709781839, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: back
+      value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781839, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -1121,6 +1116,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781839, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1473372287}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Back
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -1208,10 +1213,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button8
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 808294190}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -1338,19 +1348,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button8
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 808294190}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1493,10 +1498,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button4
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 947345492}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -1618,19 +1628,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button4
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 947345492}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1642,10 +1647,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button12
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1824188741}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -1767,23 +1777,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button12
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
       value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1824188741}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
-      value: 12
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dcc821985b01d84b888266c19589fb3, type: 3}
+--- !u!114 &1473372287 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1038104371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a4a395cd419bf4ebdb55ab33011eca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1480799840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1791,10 +1808,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button9
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 29703939}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -1916,19 +1938,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button9
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 29703939}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2063,10 +2080,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button3
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 45688260}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -2203,19 +2225,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button3
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 45688260}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2227,10 +2244,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button7
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1127902458}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -2352,19 +2374,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button7
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1127902458}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2400,10 +2417,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button13
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 180774314}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -2525,19 +2547,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button13
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 180774314}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2549,10 +2566,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button6
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1698527105}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: level
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
@@ -2674,19 +2696,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: m_Name
+      value: Button6
+      objectReference: {fileID: 0}
     - target: {fileID: 3324648558802832852, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_Text
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1698527105}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: level
       value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2698,11 +2715,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1190211689}
     m_Modifications:
-    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: m_Name
-      value: Button1
+      propertyPath: level
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+        type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1874727589}
     - target: {fileID: 3324648558709781838, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2818,15 +2840,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
+    - target: {fileID: 3324648558709781841, guid: 7dcc821985b01d84b888266c19589fb3,
         type: 3}
-      propertyPath: level
-      value: 1
+      propertyPath: m_Name
+      value: Button1
       objectReference: {fileID: 0}
-    - target: {fileID: 3324648558709781834, guid: 7dcc821985b01d84b888266c19589fb3,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1874727589}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dcc821985b01d84b888266c19589fb3, type: 3}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonHandler : MonoBehaviour
@@ -41,7 +42,7 @@ public class ButtonHandler : MonoBehaviour
         }
         else
         {
-            print(level);
+            SceneManager.LoadScene("Level");
         }
     }
 
@@ -52,6 +53,6 @@ public class ButtonHandler : MonoBehaviour
 
     public void OnBackTapped(string scene)
     {
-        print(scene);
+        SceneManager.LoadScene(scene);
     }
 } 
