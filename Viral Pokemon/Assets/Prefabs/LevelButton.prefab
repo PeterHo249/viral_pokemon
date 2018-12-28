@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3324648558709781839}
   - component: {fileID: 3324648558709781834}
   m_Layer: 5
-  m_Name: Button
+  m_Name: LevelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.13333334, g: 0.23137257, b: 0.32941177, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -119,7 +119,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3324648558709781834}
         m_MethodName: OnButtonTapped
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -143,6 +143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelHandler: {fileID: 0}
+  level: 0
+  button: {fileID: 0}
 --- !u!1 &3324648558802832854
 GameObject:
   m_ObjectHideFlags: 0
