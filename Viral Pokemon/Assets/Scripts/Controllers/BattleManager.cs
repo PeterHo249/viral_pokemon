@@ -19,7 +19,8 @@ public class BattleManager : MonoBehaviour
 
     public Text txtInfoAI, txtInfoPlayer, txtHPAI, txtHPPlayer, txtTypeAI, txtTypePlayer;
     public GameObject button1, button2, button3, button4;
-    public GameObject backgroundMenu;
+    public GameObject backgroundMenu, backgroundMenu2;
+    public GameObject buttonMenu1, buttonMenu2, buttonMenu3, buttonMenu4, buttonMenu5;
     public GameObject move;
 
     public void LoadInfoPokemon(OwnedPokemon pokemon, int type)
@@ -134,6 +135,12 @@ public class BattleManager : MonoBehaviour
         button3 = GameObject.Find("Button3");
         button4 = GameObject.Find("Button4");
         backgroundMenu = GameObject.Find("BackgroundInfoMenu");
+        backgroundMenu2 = GameObject.Find("BackgroundInfo");
+        buttonMenu1 = GameObject.Find("ButtonMenu1");
+        buttonMenu2 = GameObject.Find("ButtonMenu2");
+        buttonMenu3 = GameObject.Find("ButtonMenu3");
+        buttonMenu4 = GameObject.Find("ButtonMenu4");
+        buttonMenu5 = GameObject.Find("ButtonMenu5");
 
 
         // Load first Pokemon
@@ -167,7 +174,12 @@ public class BattleManager : MonoBehaviour
             backgroundMenu.SetActive(false);
         }
 
-        
+        backgroundMenu2.SetActive(false);
+        buttonMenu1.SetActive(false);
+        buttonMenu2.SetActive(false);
+        buttonMenu3.SetActive(false);
+        buttonMenu4.SetActive(false);
+        buttonMenu5.SetActive(false);
     }
 
     // Update is called once per frame

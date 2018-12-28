@@ -20,11 +20,11 @@ public class Button1 : MonoBehaviour
                 case 1:
                     GameObject.Find("Button1").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillName
                                                                                      + " " + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillPP.ToString();
-                    GameObject.Find("Button2").GetComponent<Button>().interactable = false;
+                    //GameObject.Find("Button2").GetComponent<Button>().interactable = false;
                     GameObject.Find("Button2").GetComponentInChildren<Text>().text = "None";
-                    GameObject.Find("Button3").GetComponent<Button>().interactable = false;
+                    //GameObject.Find("Button3").GetComponent<Button>().interactable = false;
                     GameObject.Find("Button3").GetComponentInChildren<Text>().text = "None";
-                    GameObject.Find("Button4").GetComponent<Button>().interactable = false;
+                    //GameObject.Find("Button4").GetComponent<Button>().interactable = false;
                     GameObject.Find("Button4").GetComponentInChildren<Text>().text = "None";
                     break;
                 case 2:
@@ -33,9 +33,9 @@ public class Button1 : MonoBehaviour
                     GameObject.Find("Button2").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[1].skillName
                                                                                      + " " + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[1].skillPP.ToString();
                     GameObject.Find("Button3").GetComponentInChildren<Text>().text = "None";
-                    GameObject.Find("Button3").GetComponent<Button>().interactable = false;
+                    //GameObject.Find("Button3").GetComponent<Button>().interactable = false;
                     GameObject.Find("Button4").GetComponentInChildren<Text>().text = "None";
-                    GameObject.Find("Button4").GetComponent<Button>().interactable = false;
+                    //GameObject.Find("Button4").GetComponent<Button>().interactable = false;
                     break;
                 case 3:
                     GameObject.Find("Button1").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillName
@@ -45,7 +45,7 @@ public class Button1 : MonoBehaviour
                     GameObject.Find("Button3").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[2].skillName
                                                                                       + " " + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[2].skillPP.ToString();
                     GameObject.Find("Button4").GetComponentInChildren<Text>().text = "None";
-                    GameObject.Find("Button4").GetComponent<Button>().interactable = false;
+                    //GameObject.Find("Button4").GetComponent<Button>().interactable = false;
                     break;
 
                 case 4:
@@ -63,8 +63,7 @@ public class Button1 : MonoBehaviour
         else
         {
             battleManager.IsPlayerTurn = false;
-
-
+  
             battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillPP--;
 
             battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp -= battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillPower 
@@ -90,6 +89,11 @@ public class Button1 : MonoBehaviour
             }
 
             battleManager.LoadInfoPokemon(battleManager.listPokemonAI[battleManager.currentPokemonAI], 2);
+
+            GameObject.Find("Button1").GetComponentInChildren<Text>().text = "FIGHT";
+            GameObject.Find("Button2").GetComponentInChildren<Text>().text = "POKEMON";
+            GameObject.Find("Button3").GetComponentInChildren<Text>().text = "ITEM";
+            GameObject.Find("Button4").GetComponentInChildren<Text>().text = "NONE";
 
             battleManager.HandleAIAttack();
         }
