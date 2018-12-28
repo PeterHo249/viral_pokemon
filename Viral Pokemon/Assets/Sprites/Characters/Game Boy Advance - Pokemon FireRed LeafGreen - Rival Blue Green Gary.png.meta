@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 2e52603e52e4be843b3a0ae7e8aca887
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_0
+    21300002: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_1
+    21300004: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_2
+    21300006: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_3
+    21300008: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_4
+    21300010: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_5
+    21300012: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_6
+    21300014: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_7
+    21300016: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_8
+    21300018: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_9
+    21300020: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_10
+    21300022: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_11
+    21300024: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_12
+    21300026: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_13
+    21300028: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_14
+    21300030: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_15
+    21300032: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_16
+    21300034: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_17
+    21300036: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_18
+    21300038: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_19
+    21300040: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_20
+    21300042: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_21
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 289
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2590a0d8266ac5044b95d75728436acc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 289
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a88278527743a24ba1e61becf3195e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 289
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9e91d3941c3ec49a42e92bfd2213e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 289
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7bc81b771af1c409f5e1114c1d8ca8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 289
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433c7f0756c9c8f41ad0be8c18d3dc2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 289
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6266ec9770ae884db7d8a47962aff0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 214
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc2d491163f0b649a9d5741d00333a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 265
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7851d8e3322001f43b25e435446b7c3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 265
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06dbe5b7175d034891bd11cc3f02880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 265
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25336fc3e742724458afc7102ea30442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 265
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a507e9dd8c06d4f935904343991c6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 265
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b9a239d42762f45a29b1f944fac38d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 265
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856d0c96690c3c449bbbe2277de49b35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 201
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2072891cd442dc042b04e4ec4cf7104f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 201
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ef53b93df98e34ba60e15d04fcc9f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 201
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9803e489fa8d0d14684f0a46c28b9613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d6dfe2ed834d94aa5ec409ccc600fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 130
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e3678ec124484478d036f83a3f297d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 130
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933946caf3d54614e8f6efa4c22335be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 61
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93779e1b4a6261b419f6c25358c634e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Rival Blue Green Gary_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 61
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56208e1df91c6d34eb7cd44c06622549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 279920ea1425a5d4bac5e1a3727c3cc2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

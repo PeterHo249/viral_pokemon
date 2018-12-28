@@ -1,0 +1,1632 @@
+fileFormatVersion: 2
+guid: f3f47d30a408fc841b7690956c9d1e90
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_0
+    21300002: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_1
+    21300004: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_2
+    21300006: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_3
+    21300008: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_4
+    21300010: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_5
+    21300012: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_6
+    21300014: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_7
+    21300016: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_8
+    21300018: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_9
+    21300020: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_10
+    21300022: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_11
+    21300024: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_12
+    21300026: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_13
+    21300028: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_14
+    21300030: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_15
+    21300032: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_16
+    21300034: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_17
+    21300036: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_18
+    21300038: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_19
+    21300040: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_20
+    21300042: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_21
+    21300044: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_22
+    21300046: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_23
+    21300048: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_24
+    21300050: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_25
+    21300052: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_26
+    21300054: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_27
+    21300056: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_28
+    21300058: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_29
+    21300060: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_30
+    21300062: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_31
+    21300064: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_32
+    21300066: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_33
+    21300068: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_34
+    21300070: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_35
+    21300072: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_36
+    21300074: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_37
+    21300076: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_38
+    21300078: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_39
+    21300080: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_40
+    21300082: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_41
+    21300084: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_42
+    21300086: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_43
+    21300088: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_44
+    21300090: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_45
+    21300092: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_46
+    21300094: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_47
+    21300096: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_48
+    21300098: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_49
+    21300100: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_50
+    21300102: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_51
+    21300104: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_52
+    21300106: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_53
+    21300108: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_54
+    21300110: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_55
+    21300112: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_56
+    21300114: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_57
+    21300116: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_58
+    21300118: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_59
+    21300120: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_60
+    21300122: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_61
+    21300124: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_62
+    21300126: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_63
+    21300128: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_64
+    21300130: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_65
+    21300132: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_66
+    21300134: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_67
+    21300136: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_68
+    21300138: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_69
+    21300140: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_70
+    21300142: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_71
+    21300144: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_72
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 841
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b0489b83cf49f4bbbfbd34375dc0e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 839
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b00044fbd94df46b56e681e7134086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 844
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4004165893d2a594fb367aab01c26171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 839
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d7ff940768104418e7a8c74b081339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 840
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70ca4dbf2a2cd648a50bf270776bd54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 840
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55f9a00ac121cf479ecffb050624cab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 842
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9f871ca11ff0e4dbca288dfd6c5926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_7
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 842
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496d1cde010ae984b997bee2efd8a9e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 840
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af752eadfa567804e93b4f38416089df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 770
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0813a730d89e63842899abf378993789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 771
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61eceaa4b532ac4d8a1772eaadbc943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 772
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3093ed25bce7bb149b1d20ced8d0495b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 773
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89590ff9adf1da47bc150e9a61bc6a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 774
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f793aa9a5d2f4489dfcb1c347ab13f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_14
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 775
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7c7d8a126eead4c90e560f2cde3b73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 693
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0db06e6fe03894bb0a30256cd4537c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 694
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d78e029918e9b644ac27a354e0570ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 701
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4eadc1a2351843a91830dc08048a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 699
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca520244c3042b47bfef14b7c06f558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 697
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2017c2658c59eff4b81f8aec073fa08e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 701
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6341a5fd9ddd446bb2d80994434eff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_21
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 701
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac965b79adad044b30fbe159cdb22e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 621
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1614b5241a36f4eaa327fe2f60edae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 621
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df4d98b3ac76de499776f783d551786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 624
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fcf95d653b8b14891077409cd41fc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 630
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6892b2c6b0ce9ca48b32320cfbf98402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_26
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 625
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3efa1782864f544b2d21f4cc6d9e53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 623
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2946aa405a4c444805206a9218dbde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 547
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd9adf816f66c24a8ff5cfe3db79279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_29
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 549
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ce234852ac97146ac5a66b66eca115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 605
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f66c16aa3e24142bf1e8873482def0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_31
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 550
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c87186877b7bff40ab6e5a5f60365da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_32
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 554
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb46eb77fbc521f4fb26c417109b3f02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 595
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10897520a79810543915033a4f143f95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_34
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 543
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d8870a7c564ec489b259e7200c074e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_35
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 600
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6b15db4e434b045b9de9a6d7c76846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 587
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89376f7945331474bb007bd1a9ab0afa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 581
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da552e4ac841041af3ed9d550752a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_38
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 578
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439fb1f0fa4797246a0fd3d3e732bd65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_39
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 567
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e98939de1985d4a9a8d466bef616e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 474
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81119f900b2894b4fa19a8f043f85d36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_41
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 483
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac82d9dcb468ab7439e10eeb2f328d6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_42
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 481
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c643a0efd2ad349a61a9014c5a2901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_43
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 490
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383ef9bf7f0076640ad1d8790d0a9ffe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_44
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 483
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a01dc26efccb74e8018ba5314e0aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 397
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a9a8bc0ef62ea49a8c97f3b2630936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_46
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 399
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e81368d71202e4a9c056c934836895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_47
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 400
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfc454e28d42c84494c3af178385de6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_48
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 396
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8692549c6e6adf439733de6a19759ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_49
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 404
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e68e4ffebd4b42ba1fcb5fb793d79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 299
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0a98e46ab5cf44b8539c470656e28f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 324
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c647b592494a8c148a0e748153cbc9c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_52
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 324
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d043a20f17a8e241a063fe8afdc2d7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_53
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 322
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ab6e61881b32347aaa5d87fb53af07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_54
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 328
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeceb0584a48614a9329bfe51f8febe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 330
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89a67799edb67145b273217f81a1b9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_56
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 253
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae658eadbc1d8a4fbd57efcb7cfe050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_57
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 252
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b6d0c1b07522e4aa63096e645f458e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_58
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 253
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fba2e576e814884d94d8f87e52eacff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_59
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 254
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7b65555b4b80a47bce6aa7cefc8fc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_60
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 181
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe012620f6ec9642957eaad7b214835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_61
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 182
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f2d9bf18161ac4f8112c538292d5d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_62
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 177
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fefa6f2187b4d4db555905f22cee83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_63
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 181
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91143c647292b064385c82fff630292a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_64
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 179
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c215d5e60e5c44f916f7b6c5e81262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_65
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 220
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12aabebabe9f1674cb06e71d30133f79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_66
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 178
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd914e3f4deff04798a99704c8ab837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_67
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 178
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc58a9ed20da0264589108190ca20a05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_68
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 177
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8d21129e7ebe64e9a314ff41c4b7db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_69
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 108
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6ddfe59faf6e14f824e9da1c36ed18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_70
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 109
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980b58687b92caf41a2746b3f5f8b57d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_71
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 114
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977d5bc11262a5441a01ab21e4bc269e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Trainers_72
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 112
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8c5e201b82fe1478896ebff7b407df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 784faea06d3feaa46a5e0207be95c632
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
