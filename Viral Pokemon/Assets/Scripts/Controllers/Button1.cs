@@ -178,6 +178,5 @@ public class Button1 : MonoBehaviour
         {
             StartCoroutine(Effect(type1, type2));
         }
-
     }
 }

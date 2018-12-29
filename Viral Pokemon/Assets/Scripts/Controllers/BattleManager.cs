@@ -77,6 +77,24 @@ public class BattleManager : MonoBehaviour
                     yield return new WaitForSeconds(.1f);
                 }
             }
+            if (type2 == 2)
+            {
+                Renderer renderer = PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 1f; f >= 0; f -= 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+            }
+            if (type2 == 3)
+            {
+                Renderer renderer = PokemonPlayer.GetComponent<Renderer>();
+                renderer.material.color = Color.red;
+                yield return new WaitForSeconds(0.01f);
+                renderer.material.color = Color.white;
+            }
         }
         if (type1 == 2)
         {
@@ -162,8 +180,8 @@ public class BattleManager : MonoBehaviour
 
         LoadInfoPokemon(listPokemonPlayer[currentPokemonPlayer], 1);
 
-        //IsPlayerTurn = true;
         StartCoroutine(Waiting());
+        StartCoroutine(Effect(1, 3));
     }
 
     // Start is called before the first frame update
@@ -173,6 +191,8 @@ public class BattleManager : MonoBehaviour
         OwnedPokemon pokemon1 = new OwnedPokemon(new SamplePokemon("chamander", 100, 100, 100, 100, 100, 40), 20, 20);
         pokemon1.samplePokemon.pokemonSkill.Add(new PokemonSkill("Fire Blast", PokemonType.Fire, 12, 100, 5, "abc"));
         pokemon1.samplePokemon.pokemonSkill.Add(new PokemonSkill("Thunder", PokemonType.Electric, 15, 100, 5, "abc"));
+        pokemon1.samplePokemon.pokemonSkill.Add(new PokemonSkill("Bite", PokemonType.Electric, 15, 100, 5, "abc"));
+        pokemon1.samplePokemon.pokemonSkill.Add(new PokemonSkill("Pump", PokemonType.Electric, 15, 100, 5, "abc"));
         pokemon1.samplePokemon.pokemonType.Add(PokemonType.Fire);
         listPokemonPlayer.Add(pokemon1);
 

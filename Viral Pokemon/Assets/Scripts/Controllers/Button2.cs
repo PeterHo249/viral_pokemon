@@ -27,6 +27,18 @@ public class Button2 : MonoBehaviour
                 }
                 IsEffectPlaying = false;
             }
+            if (type2 == 2)
+            {
+                Renderer renderer = battleManager.PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 1f; f >= 0; f -= 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
         }
         if (type1 == 2)
         {
@@ -40,6 +52,26 @@ public class Button2 : MonoBehaviour
                     renderer.material.color = newColor;
                     yield return new WaitForSeconds(.1f);
                 }
+                IsEffectPlaying = false;
+            }
+            if (type2 == 2)
+            {
+                Renderer renderer = battleManager.PokemonAI.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 1f; f >= 0; f -= 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+            if (type2 == 3)
+            {
+                Renderer renderer = battleManager.PokemonAI.GetComponent<Renderer>();
+                renderer.material.color = Color.red;
+                yield return new WaitForSeconds(0.01f);
+                renderer.material.color = Color.white;
                 IsEffectPlaying = false;
             }
         }
@@ -111,6 +143,9 @@ public class Button2 : MonoBehaviour
                     Object.Destroy(listsPokemon[i]);
                 }
 
+                type1 = 1;
+                type2 = 1;
+                IsEffectPlaying = true;
             });
 
             battleManager.buttonMenu3.GetComponent<Button>().onClick.AddListener(delegate()
@@ -129,6 +164,9 @@ public class Button2 : MonoBehaviour
                     Object.Destroy(listsPokemon[i]);
                 }
 
+                type1 = 1;
+                type2 = 1;
+                IsEffectPlaying = true;
             });
 
             battleManager.buttonMenu4.GetComponent<Button>().onClick.AddListener(delegate()
@@ -147,6 +185,9 @@ public class Button2 : MonoBehaviour
                     Object.Destroy(listsPokemon[i]);
                 }
 
+                type1 = 1;
+                type2 = 1;
+                IsEffectPlaying = true;
             });
 
             battleManager.buttonMenu5.GetComponent<Button>().onClick.AddListener(delegate()
@@ -165,6 +206,9 @@ public class Button2 : MonoBehaviour
                     Object.Destroy(listsPokemon[i]);
                 }
 
+                type1 = 1;
+                type2 = 1;
+                IsEffectPlaying = true;
             });
 
         }
@@ -173,6 +217,8 @@ public class Button2 : MonoBehaviour
             if (text2.text != "None")
             {
                 battleManager.IsPlayerTurn = false;
+                type1 = 2;
+                type2 = 3;
 
                 battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[1].skillPP--;
 
@@ -180,7 +226,12 @@ public class Button2 : MonoBehaviour
                                                                                                 + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.attack
                                                                                                 - battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.defense;
                 if (battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp < 0)
+                {
                     battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp = 0;
+                    type2 = 2;
+                }
+
+                IsEffectPlaying = true;
 
                 RectTransform recT = GameObject.Find("HPBarAI").GetComponent<RectTransform>();
                 float rate = (float)(battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp) / battleManager.currentMaxHPAI;
@@ -216,8 +267,8 @@ public class Button2 : MonoBehaviour
         button2 = GameObject.Find("Button2").GetComponent<Button>();
         battleManager = FindObjectOfType<BattleManager>();
         button2.onClick.AddListener(handleClick);
-        type1 = -1;
-        type2 = -1;
+        type1 = 0;
+        type2 = 0;
     }
 
     // Update is called once per frame
@@ -225,7 +276,7 @@ public class Button2 : MonoBehaviour
     {
         if (IsEffectPlaying)
         {
-            StartCoroutine(Effect(1, 1));
+            StartCoroutine(Effect(type1, type2));
         }
     }
 }

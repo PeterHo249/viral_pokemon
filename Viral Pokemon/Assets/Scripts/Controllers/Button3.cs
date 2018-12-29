@@ -8,6 +8,62 @@ public class Button3 : MonoBehaviour
 
     public Button button3;
     public BattleManager battleManager;
+    public int type1, type2;
+    public bool IsEffectPlaying;
+
+    public IEnumerator Effect(int type1, int type2)
+    {
+        if (type1 == 1)
+        {
+            if (type2 == 1)
+            {
+                Renderer renderer = battleManager.PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 0; f <= 1f; f += 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+            if (type2 == 2)
+            {
+                Renderer renderer = battleManager.PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 1f; f >= 0; f -= 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+        }
+        if (type1 == 2)
+        {
+            if (type2 == 2)
+            {
+                Renderer renderer = battleManager.PokemonAI.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 1f; f >= 0; f -= 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+            if (type2 == 3)
+            {
+                Renderer renderer = battleManager.PokemonAI.GetComponent<Renderer>();
+                renderer.material.color = Color.red;
+                yield return new WaitForSeconds(0.01f);
+                renderer.material.color = Color.white;
+                IsEffectPlaying = false;
+            }
+        }
+    }
 
     public void handleClick()
     {
@@ -49,7 +105,7 @@ public class Button3 : MonoBehaviour
 
             battleManager.buttonMenu2.GetComponent<Button>().onClick.AddListener(delegate()
             {
-                // switch pokemon
+                // handle item
 
                 battleManager.backgroundMenu2.SetActive(false);
                 battleManager.buttonMenu1.SetActive(false);
@@ -67,6 +123,8 @@ public class Button3 : MonoBehaviour
             if (text3.text != "None" && text3.text != "NONE")
             {
                 battleManager.IsPlayerTurn = false;
+                type1 = 2;
+                type2 = 3;
 
                 battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[2].skillPP--;
 
@@ -74,7 +132,12 @@ public class Button3 : MonoBehaviour
                                                                                                 + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.attack
                                                                                                 - battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.defense;
                 if (battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp < 0)
+                {
                     battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp = 0;
+                    type2 = 2;
+                }
+
+                IsEffectPlaying = true;
 
                 RectTransform recT = GameObject.Find("HPBarAI").GetComponent<RectTransform>();
                 float rate = (float)(battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp) / battleManager.currentMaxHPAI;
@@ -110,11 +173,16 @@ public class Button3 : MonoBehaviour
         button3 = GameObject.Find("Button3").GetComponent<Button>();
         battleManager = FindObjectOfType<BattleManager>();
         button3.onClick.AddListener(handleClick);
+        type1 = 0;
+        type2 = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (IsEffectPlaying)
+        {
+            StartCoroutine(Effect(type1, type2));
+        }
     }
 }
