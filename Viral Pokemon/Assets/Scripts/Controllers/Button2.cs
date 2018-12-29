@@ -8,6 +8,42 @@ public class Button2 : MonoBehaviour
 
     public Button button2;
     public BattleManager battleManager;
+    public int type1, type2;
+    public bool IsEffectPlaying;
+
+    public IEnumerator Effect(int type1, int type2)
+    {
+        if (type1 == 1)
+        {
+            if (type2 == 1)
+            {
+                Renderer renderer = battleManager.PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 0; f <= 1f; f += 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+        }
+        if (type1 == 2)
+        {
+            if (type2 == 1)
+            {
+                Renderer renderer = battleManager.PokemonAI.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 0; f <= 1f; f += 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+        }
+    }
 
     public void handleClick()
     {
@@ -54,6 +90,9 @@ public class Button2 : MonoBehaviour
                     Object.Destroy(listsPokemon[i]);
                 }
 
+                type1 = 1;
+                type2 = 1;
+                IsEffectPlaying = true;
             });
 
             battleManager.buttonMenu2.GetComponent<Button>().onClick.AddListener(delegate()
@@ -177,11 +216,16 @@ public class Button2 : MonoBehaviour
         button2 = GameObject.Find("Button2").GetComponent<Button>();
         battleManager = FindObjectOfType<BattleManager>();
         button2.onClick.AddListener(handleClick);
+        type1 = -1;
+        type2 = -1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (IsEffectPlaying)
+        {
+            StartCoroutine(Effect(1, 1));
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,9 +8,63 @@ public class Button1 : MonoBehaviour
 {
     public Button button1;
     public BattleManager battleManager;
+    public int type1, type2;
+    public bool IsEffectPlaying;
 
+    public IEnumerator Effect(int type1, int type2)
+    {
+        if (type1 == 1)
+        {
+            if (type2 == 1)
+            {
+                Renderer renderer = battleManager.PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 0; f <= 1f; f += 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+            if (type2 == 2)
+            {
+                Renderer renderer = battleManager.PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 1f; f >= 0; f -= 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+        }
+        if (type1 == 2)
+        {
+            if (type2 == 2)
+            {
+                Renderer renderer = battleManager.PokemonAI.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 1f; f >= 0; f -= 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+                IsEffectPlaying = false;
+            }
+            if (type2 == 3)
+            {
+                Renderer renderer = battleManager.PokemonAI.GetComponent<Renderer>();
+                renderer.material.color = Color.red;
+                yield return new WaitForSeconds(0.01f);
+                renderer.material.color = Color.white;
+                IsEffectPlaying = false;
+            }
+        }
+    }
 
-    
     public void handleClick()
     {
         Text text1 = GameObject.Find("Button1").GetComponentInChildren<Text>();
@@ -20,11 +75,10 @@ public class Button1 : MonoBehaviour
                 case 1:
                     GameObject.Find("Button1").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillName
                                                                                      + " " + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillPP.ToString();
-                    //GameObject.Find("Button2").GetComponent<Button>().interactable = false;
                     GameObject.Find("Button2").GetComponentInChildren<Text>().text = "None";
-                    //GameObject.Find("Button3").GetComponent<Button>().interactable = false;
+         
                     GameObject.Find("Button3").GetComponentInChildren<Text>().text = "None";
-                    //GameObject.Find("Button4").GetComponent<Button>().interactable = false;
+             
                     GameObject.Find("Button4").GetComponentInChildren<Text>().text = "None";
                     break;
                 case 2:
@@ -33,9 +87,9 @@ public class Button1 : MonoBehaviour
                     GameObject.Find("Button2").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[1].skillName
                                                                                      + " " + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[1].skillPP.ToString();
                     GameObject.Find("Button3").GetComponentInChildren<Text>().text = "None";
-                    //GameObject.Find("Button3").GetComponent<Button>().interactable = false;
+         
                     GameObject.Find("Button4").GetComponentInChildren<Text>().text = "None";
-                    //GameObject.Find("Button4").GetComponent<Button>().interactable = false;
+               
                     break;
                 case 3:
                     GameObject.Find("Button1").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillName
@@ -45,7 +99,7 @@ public class Button1 : MonoBehaviour
                     GameObject.Find("Button3").GetComponentInChildren<Text>().text = battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[2].skillName
                                                                                       + " " + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[2].skillPP.ToString();
                     GameObject.Find("Button4").GetComponentInChildren<Text>().text = "None";
-                    //GameObject.Find("Button4").GetComponent<Button>().interactable = false;
+          
                     break;
 
                 case 4:
@@ -63,6 +117,8 @@ public class Button1 : MonoBehaviour
         else
         {
             battleManager.IsPlayerTurn = false;
+            type1 = 2;
+            type2 = 3;
   
             battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.pokemonSkill[0].skillPP--;
 
@@ -70,7 +126,12 @@ public class Button1 : MonoBehaviour
                                                                                             + battleManager.listPokemonPlayer[battleManager.currentPokemonPlayer].samplePokemon.attack 
                                                                                             - battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.defense;
             if (battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp < 0)
+            {
                 battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp = 0;
+                type2 = 2;
+            }
+
+            IsEffectPlaying = true;
 
             RectTransform recT = GameObject.Find("HPBarAI").GetComponent<RectTransform>();
             float rate = (float)(battleManager.listPokemonAI[battleManager.currentPokemonAI].samplePokemon.hp) / battleManager.currentMaxHPAI;
@@ -106,11 +167,17 @@ public class Button1 : MonoBehaviour
         button1 = GameObject.Find("Button1").GetComponent<Button>();
         battleManager = FindObjectOfType<BattleManager>();
         button1.onClick.AddListener(handleClick);
+        type1 = 0;
+        type2 = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (IsEffectPlaying)
+        {
+            StartCoroutine(Effect(type1, type2));
+        }
+
     }
 }

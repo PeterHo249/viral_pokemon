@@ -11,6 +11,7 @@ public class BattleManager : MonoBehaviour
     public int currentPokemonPlayer = 0, currentPokemonAI = 0;
     public int currentMaxHPPlayer = 0, currentMaxHPAI = 0;
     public bool IsPlayerTurn;
+    public int typeEffect, typeObject;
 
 
     // UI
@@ -57,9 +58,80 @@ public class BattleManager : MonoBehaviour
 
     IEnumerator Waiting()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         IsPlayerTurn = true;
     }
+
+    public IEnumerator Effect(int type1, int type2)
+    {
+        if (type1 == 1)
+        {
+            if (type2 == 1)
+            {
+                Renderer renderer = PokemonPlayer.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 0; f <= 1f; f += 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+            }
+        }
+        if (type1 == 2)
+        {
+            if (type2 == 1)
+            {
+                Renderer renderer = PokemonAI.GetComponent<Renderer>();
+                Color newColor = renderer.material.color;
+                for (float f = 0; f <= 1f; f += 0.1f)
+                {
+                    newColor.a = f;
+                    renderer.material.color = newColor;
+                    yield return new WaitForSeconds(.1f);
+                }
+            }
+        }
+    }
+
+    //public IEnumerator FadeOut(GameObject obj)
+    //{
+    //    Renderer renderer = obj.GetComponent<Renderer>();
+    //    Color newColor = renderer.material.color;
+    //    for (float f = 1f; f >= 0; f -= 0.1f)
+    //    {
+    //        newColor.a = f;
+    //        renderer.material.color = newColor;
+    //        yield return new WaitForSeconds(.1f);
+    //    }
+    //    IsFadeOutPlaying = false;
+    //}
+
+    //public IEnumerator FadeIn(GameObject obj)
+    //{
+    //    Renderer renderer = obj.GetComponent<Renderer>();
+    //    Color newColor = renderer.material.color;
+    //    for (float f = 0; f <= 1f; f += 0.1f)
+    //    {
+    //        newColor.a = f;
+    //        renderer.material.color = newColor;
+    //        yield return new WaitForSeconds(.1f);
+    //    }
+    //    IsFadeInPlaying = false;
+    //}
+
+    //public IEnumerator Attack(GameObject obj)
+    //{
+    //    Renderer renderer = obj.GetComponent<Renderer>();
+    //    renderer.material.color = Color.red;
+    //    yield return new WaitForSeconds(0.01f);
+    //    renderer.material.color = Color.white;
+    //    IsAttackPlaying = false;
+    //}
+
+
+
+
 
     public void HandleAIAttack()
     {
@@ -130,17 +202,22 @@ public class BattleManager : MonoBehaviour
         txtHPPlayer = GameObject.Find("TextHPPlayer").GetComponent<Text>();
         txtTypeAI = GameObject.Find("TypeAI").GetComponent<Text>();
         txtTypePlayer = GameObject.Find("TypePlayer").GetComponent<Text>();
+
         button1 = GameObject.Find("Button1");
         button2 = GameObject.Find("Button2");
         button3 = GameObject.Find("Button3");
         button4 = GameObject.Find("Button4");
         backgroundMenu = GameObject.Find("BackgroundInfoMenu");
+
         backgroundMenu2 = GameObject.Find("BackgroundInfo");
         buttonMenu1 = GameObject.Find("ButtonMenu1");
         buttonMenu2 = GameObject.Find("ButtonMenu2");
         buttonMenu3 = GameObject.Find("ButtonMenu3");
         buttonMenu4 = GameObject.Find("ButtonMenu4");
         buttonMenu5 = GameObject.Find("ButtonMenu5");
+
+        PokemonPlayer = GameObject.Find("PokemonPlayer");
+        PokemonAI = GameObject.Find("PokemonAI");
 
 
         // Load first Pokemon
@@ -180,6 +257,9 @@ public class BattleManager : MonoBehaviour
         buttonMenu3.SetActive(false);
         buttonMenu4.SetActive(false);
         buttonMenu5.SetActive(false);
+
+        StartCoroutine(Effect(1, 1));
+        StartCoroutine(Effect(2, 1));
     }
 
     // Update is called once per frame
