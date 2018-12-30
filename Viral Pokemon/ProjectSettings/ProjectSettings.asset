@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: c1f99f26f5cc5d4429505a96d1afc8eb
+  productGUID: 6ff865d7b14430a4aba6fcd8c02d0d4b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -580,10 +580,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 391e2115-f908-403c-8e18-672ca6d32814
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Viral Pokemon (1)
+  organizationId: cuduong30121997
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
