@@ -39,6 +39,7 @@ public class choose2 : MonoBehaviour
                 battleManager.WaitAI(1);
             }
         }
+        battleManager.MenuController(true);
     }
 
     void Start()

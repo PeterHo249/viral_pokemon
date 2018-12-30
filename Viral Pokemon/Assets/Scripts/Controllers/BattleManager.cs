@@ -24,6 +24,9 @@ public class BattleManager : MonoBehaviour
 
     public List<GameObject> Moves;
 
+    public GameObject BallPlayer;
+    public GameObject BallAI;
+
 
     public void LoadData()
     {
@@ -95,7 +98,9 @@ public class BattleManager : MonoBehaviour
         MenuChooseInfo = GameObject.Find("MenuChooseInfo");
 
         Moves.Add(GameObject.Find("2_0"));
-        Moves[0].SetActive(false);
+
+        BallPlayer = GameObject.Find("BallPlayer");
+        BallAI = GameObject.Find("BallAI");
     }
 
     public void LoadUIPokemon(Pokemon pokemon, int type)
@@ -220,18 +225,38 @@ public class BattleManager : MonoBehaviour
 
     public void HandleAIAttack()
     {
-        currentPlayer.currentHp -= currentAI.skills[0].power
-                                 + currentAI.attack
-                                 - currentPlayer.defense;
-        if (currentPlayer.currentHp < 0)
+        if (currentAI.currentHp > 0)
         {
-            currentPlayer.currentHp = 0;
-            FadeOut(PokemonPlayer);
-        }
+            currentPlayer.currentHp -= currentAI.skills[0].power
+                         + currentAI.attack
+                         - currentPlayer.defense;
+            if (currentPlayer.currentHp < 0)
+            {
+                currentPlayer.currentHp = 0;
+                FadeOut(PokemonPlayer);
+            }
 
-        LoadUIPokemon(currentPlayer, 1);
-        Attack(PokemonPlayer);
-        EffectAttack(2);
+            LoadUIPokemon(currentPlayer, 1);
+            Attack(PokemonPlayer);
+            EffectAttack(2);
+        }
+        else
+        {
+            pokemonsAI.RemoveAt(0);
+
+            if (pokemonsAI.Count == 0)
+            {
+                BallAI.GetComponent<SpriteRenderer>().sprite = null;
+                Debug.Log("AI lose");
+            }
+            else
+            {
+                currentAI = pokemonsAI[0];
+                LoadUIPokemon(currentAI, 2);
+                FadeIn(PokemonAI);
+                BallAI.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsAI.Count - 1];
+            }
+        }
     }
 
     public IEnumerator _WaitAI(float i)
@@ -241,11 +266,45 @@ public class BattleManager : MonoBehaviour
         HandleAIAttack();
         yield return new WaitForSeconds(i);
         MenuController(true);
+        WaitPlayer();
     }
 
     public void WaitAI(float i)
     {
         StartCoroutine(_WaitAI(i));
+    }
+
+    public IEnumerator _WaitPlayer()
+    {
+        yield return new WaitForSeconds(1);
+        for (int i = 0; i < pokemonsPlayer.Count; i++)
+        {
+            if (currentPlayer.id == pokemonsPlayer[i].id)
+            {
+                pokemonsPlayer.RemoveAt(i);
+                break;
+            }
+        }
+        if (pokemonsPlayer.Count == 0)
+        {
+            BallPlayer.GetComponent<SpriteRenderer>().sprite = null;
+            Debug.Log("Player lose");
+        }
+        else
+        {
+            BallPlayer.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsAI.Count - 1];
+            MenuController(false);
+            MenuChooseController(true, 1);
+        }
+    }
+
+    public void WaitPlayer()
+    {
+        if (currentPlayer.currentHp == 0)
+        {
+            StartCoroutine(_WaitPlayer());
+        }
+
     }
 
     public IEnumerator _FadeIn(GameObject obj)
@@ -309,7 +368,6 @@ public class BattleManager : MonoBehaviour
         StartCoroutine(_DownHP(rect, to, max));
     }
 
-
     public IEnumerator _EffectAttack(int type)
     {
         if (type == 1)
@@ -338,16 +396,23 @@ public class BattleManager : MonoBehaviour
     {
         LoadData();
         MappingUI();
+
         MenuChooseController(false, 0);
+
         LoadUIPokemon(currentPlayer, 1);
         LoadUIPokemon(currentAI, 2);
         FadeIn(PokemonPlayer);
         FadeIn(PokemonAI);
+
+        Moves[0].SetActive(false);
+
+        BallAI.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsAI.Count - 1];
+        BallPlayer.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsPlayer.Count - 1];
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

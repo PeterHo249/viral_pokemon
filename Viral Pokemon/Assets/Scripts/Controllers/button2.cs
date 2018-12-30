@@ -13,6 +13,7 @@ public class button2 : MonoBehaviour
         Text text1 = button.GetComponentInChildren<Text>();
         if (text1.text == "Pokemon")
         {
+            battleManager.MenuController(false);
             battleManager.MenuChooseController(true, 1);
         }
         else

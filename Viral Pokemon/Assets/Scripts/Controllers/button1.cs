@@ -53,8 +53,8 @@ public class button1 : MonoBehaviour
 
                 battleManager.currentPlayer.skills[0].pp--;
                 battleManager.currentAI.currentHp -= battleManager.currentPlayer.skills[0].power
-                                                   + battleManager.currentPlayer.attack
-                                                   - battleManager.currentAI.defense;
+                                                    + battleManager.currentPlayer.attack
+                                                    - battleManager.currentAI.defense;
                 if (battleManager.currentAI.currentHp < 0)
                 {
                     battleManager.currentAI.currentHp = 0;

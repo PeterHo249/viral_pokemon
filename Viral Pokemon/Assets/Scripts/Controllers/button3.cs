@@ -13,6 +13,7 @@ public class button3 : MonoBehaviour
         Text text1 = button.GetComponentInChildren<Text>();
         if (text1.text == "Item")
         {
+            battleManager.MenuController(false);
             battleManager.MenuChooseController(true, 2);
         }
         else
