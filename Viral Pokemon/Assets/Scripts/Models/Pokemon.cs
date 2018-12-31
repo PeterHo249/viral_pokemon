@@ -14,6 +14,7 @@ public class Pokemon
     public List<int> type;
     public List<PokemonSkill> skills;
     public int level;
+    public int exp;
 
     public Pokemon(int id, string name, int hp, int attack, int defense, int speed, int level)
     {
