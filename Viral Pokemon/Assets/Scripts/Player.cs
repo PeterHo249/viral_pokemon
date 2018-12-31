@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
 
     public void readDataFromSqlite()
     {
+        ownedPokemons = new List<Pokemon>();
+        ownedItems = new List<Item>();
+
         //Read Data
         string path = "URI=file://Assets/ViralPokemon.db";
         IDbConnection dbc;
@@ -30,10 +33,6 @@ public class Player : MonoBehaviour
         // Read stat, level, exp
         while (dbr.Read())
         {
-            //SamplePokemon sample = new SamplePokemon(dbr.GetString(0), dbr.GetInt32(1), dbr.GetInt32(2), dbr.GetInt32(3), dbr.GetInt32(4), dbr.GetInt32(5), dbr.GetInt32(6)); // 0,1,2,3,.. : index của name, hp, .. sau khi query
-            //OwnedPokemon pokemon = new OwnedPokemon(sample, dbr.GetInt32(7), dbr.GetInt32(8));
-            //ownedPokemons.Add(pokemon);
-
             Pokemon pokemon = new Pokemon(dbr.GetInt32(0), dbr.GetString(1), dbr.GetInt32(2), dbr.GetInt32(3), dbr.GetInt32(4), dbr.GetInt32(5), dbr.GetInt32(6));
             ownedPokemons.Add(pokemon);
         }
@@ -42,38 +41,37 @@ public class Player : MonoBehaviour
         for (int i = 0; i < ownedPokemons.Count; i++)
         {
             // Read skill
-            dbcm.CommandText = "select PokemonSkill.name, PokemonType.name, PokemonSkill.power, PokemonSkill.accurate, PokemonSkill.pp, PokemonSkill.effect from PokemonSkill, PokemonType, SamplePokemon, SkillOfPokemon where PokemonSkill.type = PokemonType.id and PokemonSkill.id = SkillOfPokemon.idSkill and SkillOfPokemon.idPokemon = SamplePokemon.id and SamplePokemon.name = '";
+            dbcm.CommandText = "select PokemonSkill.id, PokemonSkill.name, PokemonSkill.type, PokemonSkill.power, PokemonSkill.pp from PokemonSkill, PokemonType, SamplePokemon, SkillOfPokemon where PokemonSkill.type = PokemonType.id and PokemonSkill.id = SkillOfPokemon.idSkill and SkillOfPokemon.idPokemon = SamplePokemon.id and SamplePokemon.id = " + ownedPokemons[i].id.ToString();
             dbr = dbcm.ExecuteReader();
             while (dbr.Read())
             {
-                //ownedPokemons[i].samplePokemon.pokemonSkill.Add(new PokemonSkill(dbr.GetString(0), mapping[dbr.GetString(1)], dbr.GetInt32(2), dbr.GetInt32(3), dbr.GetInt32(4), dbr.GetString(5)));
+                ownedPokemons[i].skills.Add(new PokemonSkill(dbr.GetInt32(0), dbr.GetString(1), dbr.GetInt32(2), dbr.GetInt32(3), dbr.GetInt32(4)));
             }
 
             // Read Type
-            dbcm.CommandText = "select PokemonType.name from PokemonType, TypeOfPokemon, SamplePokemon where PokemonType.id = TypeOfPokemon.idType and TypeOfPokemon.idPokemon = SamplePokemon.id and SamplePokemon.name = '";
+            dbcm.CommandText = "select TypeOfPokemon.idType from TypeOfPokemon, SamplePokemon where TypeOfPokemon.idPokemon = SamplePokemon.id and SamplePokemon.id = " + ownedPokemons[i].id.ToString();
             dbr = dbcm.ExecuteReader();
             while (dbr.Read())
             {
-                //ownedPokemons[i].samplePokemon.pokemonType.Add(mapping[dbr.GetString(0)]);
+                ownedPokemons[i].type.Add(dbr.GetInt32(0));
             }
         }
 
         // Read Item
-        dbcm.CommandText = "select Item.name, Item.effect, ItemOfPlayer.amount from Item, ItemOfPlayer where Item.id = ItemOfPlayer.idItem";
+        dbcm.CommandText = "select Item.id, Item.name, ItemOfPlayer.amount from Item, ItemOfPlayer where Item.id = ItemOfPlayer.idItem";
         dbr = dbcm.ExecuteReader();
         while (dbr.Read())
         {
-            //ownedItems.Add(new OwnedItem(new Item(dbr.GetString(0), dbr.GetString(1)), dbr.GetInt32(2)));
+            ownedItems.Add(new Item(dbr.GetInt32(0), dbr.GetString(1), dbr.GetInt32(2)));
         }
 
         dbc.Close();
     }
 
+
     // Start is called before the first frame update
     void Start()
     {
-        //ownedPokemons = new List<OwnedPokemon>();
-        //ownedItems = new List<OwnedItem>();
         readDataFromSqlite();
     }
 

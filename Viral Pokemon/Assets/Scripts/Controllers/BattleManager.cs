@@ -10,6 +10,7 @@ public class BattleManager : MonoBehaviour
     public List<Item> playerItems;
     public Pokemon currentPlayer, currentAI;
     public bool IsPlayerTurn;
+    public Player playerManager;
 
 
     // UI
@@ -30,35 +31,38 @@ public class BattleManager : MonoBehaviour
 
     public void LoadData()
     {
-        pokemonsPlayer = new List<Pokemon>();
-        pokemonsAI = new List<Pokemon>();
+        playerManager = FindObjectOfType<Player>();
+        pokemonsPlayer = new List<Pokemon>(playerManager.ownedPokemons);
+        pokemonsAI = new List<Pokemon>(playerManager.ownedPokemons);
 
-        Pokemon pokemon = new Pokemon(1, "Bulbasuar", 45, 49, 49, 45, 1);
-        pokemon.skills.Add(new PokemonSkill(1, "Posion", 8, 10, 30));
-        pokemon.skills.Add(new PokemonSkill(2, "Seed", 5, 5, 30));
-        pokemon.type.Add(5);
-        pokemon.type.Add(8);
 
-        Pokemon pokemon1 = new Pokemon(1, "Bulbasuar", 45, 49, 49, 45, 1);
-        pokemon1.skills.Add(new PokemonSkill(1, "Posion", 8, 10, 30));
-        pokemon1.skills.Add(new PokemonSkill(2, "Seed", 5, 5, 30));
-        pokemon1.type.Add(5);
-        pokemon1.type.Add(8);
 
-        Pokemon pokemon2 = new Pokemon(4, "Charmander", 39, 52, 43, 65, 1);
-        pokemon2.skills.Add(new PokemonSkill(3, "Fire burn", 2, 10, 30));
-        pokemon2.skills.Add(new PokemonSkill(4, "Fire blast", 2, 100, 5));
-        pokemon2.type.Add(2);
+        //Pokemon pokemon = new Pokemon(1, "Bulbasuar", 45, 49, 49, 45, 1);
+        //pokemon.skills.Add(new PokemonSkill(1, "Posion", 8, 10, 30));
+        //pokemon.skills.Add(new PokemonSkill(2, "Seed", 5, 5, 30));
+        //pokemon.type.Add(5);
+        //pokemon.type.Add(8);
 
-        Pokemon pokemon3 = new Pokemon(4, "Charmander", 39, 52, 43, 65, 1);
-        pokemon3.skills.Add(new PokemonSkill(3, "Fire burn", 2, 10, 30));
-        pokemon3.skills.Add(new PokemonSkill(4, "Fire blast", 2, 100, 5));
-        pokemon3.type.Add(2);
+        //Pokemon pokemon1 = new Pokemon(1, "Bulbasuar", 45, 49, 49, 45, 1);
+        //pokemon1.skills.Add(new PokemonSkill(1, "Posion", 8, 10, 30));
+        //pokemon1.skills.Add(new PokemonSkill(2, "Seed", 5, 5, 30));
+        //pokemon1.type.Add(5);
+        //pokemon1.type.Add(8);
 
-        pokemonsPlayer.Add(pokemon);
-        pokemonsPlayer.Add(pokemon2);
-        pokemonsAI.Add(pokemon1);
-        pokemonsAI.Add(pokemon3);
+        //Pokemon pokemon2 = new Pokemon(4, "Charmander", 39, 52, 43, 65, 1);
+        //pokemon2.skills.Add(new PokemonSkill(3, "Fire burn", 2, 10, 30));
+        //pokemon2.skills.Add(new PokemonSkill(4, "Fire blast", 2, 100, 5));
+        //pokemon2.type.Add(2);
+
+        //Pokemon pokemon3 = new Pokemon(4, "Charmander", 39, 52, 43, 65, 1);
+        //pokemon3.skills.Add(new PokemonSkill(3, "Fire burn", 2, 10, 30));
+        //pokemon3.skills.Add(new PokemonSkill(4, "Fire blast", 2, 100, 5));
+        //pokemon3.type.Add(2);
+
+        //pokemonsPlayer.Add(pokemon);
+        //pokemonsPlayer.Add(pokemon2);
+        //pokemonsAI.Add(pokemon1);
+        //pokemonsAI.Add(pokemon3);
 
         currentAI = pokemonsAI[0];
         currentPlayer = pokemonsPlayer[0];
@@ -292,7 +296,7 @@ public class BattleManager : MonoBehaviour
         }
         else
         {
-            BallPlayer.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsAI.Count - 1];
+            BallPlayer.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsPlayer.Count - 1];
             MenuController(false);
             MenuChooseController(true, 1);
         }
