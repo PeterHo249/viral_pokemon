@@ -607,6 +607,8 @@ MonoBehaviour:
   priceMaxElixir: 0
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
+  amountItem1Text: {fileID: 0}
+  amountItem2Text: {fileID: 0}
   buyButton1: {fileID: 0}
   buyButton2: {fileID: 0}
 --- !u!114 &427947600
@@ -948,6 +950,8 @@ MonoBehaviour:
   priceMaxElixir: 0
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
+  amountItem1Text: {fileID: 1921629013}
+  amountItem2Text: {fileID: 1921629013}
   buyButton1: {fileID: 947822882}
   buyButton2: {fileID: 688555654}
 --- !u!1 &732328042
@@ -1618,6 +1622,8 @@ MonoBehaviour:
   priceMaxElixir: 0
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
+  amountItem1Text: {fileID: 1921629013}
+  amountItem2Text: {fileID: 1921629013}
   buyButton1: {fileID: 947822882}
   buyButton2: {fileID: 688555654}
 --- !u!1 &950972480
@@ -3429,6 +3435,8 @@ MonoBehaviour:
   priceMaxElixir: 0
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
+  amountItem1Text: {fileID: 0}
+  amountItem2Text: {fileID: 0}
   buyButton1: {fileID: 0}
   buyButton2: {fileID: 0}
 --- !u!1 &1637421589
@@ -3896,6 +3904,8 @@ MonoBehaviour:
   priceMaxElixir: 0
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
+  amountItem1Text: {fileID: 0}
+  amountItem2Text: {fileID: 0}
   buyButton1: {fileID: 0}
   buyButton2: {fileID: 0}
 --- !u!1 &1795629914
@@ -4208,7 +4218,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.7
-  m_Text: x 4
+  m_Text: x 0
 --- !u!222 &1921629014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4477,6 +4487,8 @@ MonoBehaviour:
   priceMaxElixir: 0
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
+  amountItem1Text: {fileID: 1921629013}
+  amountItem2Text: {fileID: 1921629013}
   buyButton1: {fileID: 947822882}
   buyButton2: {fileID: 688555654}
 --- !u!4 &2018380269
