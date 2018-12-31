@@ -12,6 +12,7 @@ public class TalkObstacle : MonoBehaviour
 
     public bool isCollise = false;
 
+    public int number;
 
     public string talk = "Press Space to talk";
     // Start is called before the first frame update
@@ -34,16 +35,20 @@ public class TalkObstacle : MonoBehaviour
                 levelManager.state = true;
                 InputText.text = "";
             }
+            if (levelManager.state)
+            {
+                ShowElement();
+            }
+            else
+            {
+                HideElement();
+            }
+
         }
 
-        print(levelManager.state);
-        if (levelManager.state)
+        if (Input.GetKeyDown(KeyCode.K))
         {
-            ShowElement();
-        }
-        else
-        {
-            HideElement();
+            GameObject.Find("obstacle1").GetComponent<BoxCollider2D>().isTrigger = true;
         }
     }
 
@@ -51,14 +56,16 @@ public class TalkObstacle : MonoBehaviour
     {
         Dialog.SetActive(true);
         TalkText.text = "123456789 123456789 123456789 123456789 123456789 123456789 123456789";
-        
+        if (number == levelManager.level + 1)
+        {
+            print("Chuan bi danh");
+        }
     }
 
     public void HideElement()
     {
         Dialog.SetActive(false);
         TalkText.text = "";
-        //InputText.text = "";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -66,8 +73,8 @@ public class TalkObstacle : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isCollise = true;
-            print("Va cham nhan vat");
             InputText.text = (talk);
+            GameObject.Find("obstacle1").GetComponent<BoxCollider2D>().isTrigger = false;
         }
     }
 
@@ -83,8 +90,7 @@ public class TalkObstacle : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            isCollise = false;
-            print("Thoat nhan vat");
+            isCollise = false;;
             InputText.text = ("");
         }
     }
