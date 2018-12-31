@@ -608,9 +608,9 @@ MonoBehaviour:
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
   amountItem1Text: {fileID: 0}
-  amountItem2Text: {fileID: 0}
   buyButton1: {fileID: 0}
   buyButton2: {fileID: 0}
+  playerManager: {fileID: 0}
 --- !u!114 &427947600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,9 +951,9 @@ MonoBehaviour:
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
   amountItem1Text: {fileID: 1921629013}
-  amountItem2Text: {fileID: 1921629013}
   buyButton1: {fileID: 947822882}
   buyButton2: {fileID: 688555654}
+  playerManager: {fileID: 0}
 --- !u!1 &732328042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1137,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &759662567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759662569}
+  - component: {fileID: 759662568}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &759662568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759662567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0976b4757a354ba4d87bea10a4642e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: 0
+--- !u!4 &759662569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759662567}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.44063872, y: 0.17366347, z: -0.009286666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &768222543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,9 +1667,9 @@ MonoBehaviour:
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
   amountItem1Text: {fileID: 1921629013}
-  amountItem2Text: {fileID: 1921629013}
   buyButton1: {fileID: 947822882}
   buyButton2: {fileID: 688555654}
+  playerManager: {fileID: 0}
 --- !u!1 &950972480
 GameObject:
   m_ObjectHideFlags: 0
@@ -3436,9 +3480,9 @@ MonoBehaviour:
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
   amountItem1Text: {fileID: 0}
-  amountItem2Text: {fileID: 0}
   buyButton1: {fileID: 0}
   buyButton2: {fileID: 0}
+  playerManager: {fileID: 0}
 --- !u!1 &1637421589
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,9 +3949,9 @@ MonoBehaviour:
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
   amountItem1Text: {fileID: 0}
-  amountItem2Text: {fileID: 0}
   buyButton1: {fileID: 0}
   buyButton2: {fileID: 0}
+  playerManager: {fileID: 0}
 --- !u!1 &1795629914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4488,9 +4532,9 @@ MonoBehaviour:
   priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
   amountItem1Text: {fileID: 1921629013}
-  amountItem2Text: {fileID: 1921629013}
   buyButton1: {fileID: 947822882}
   buyButton2: {fileID: 688555654}
+  playerManager: {fileID: 0}
 --- !u!4 &2018380269
 Transform:
   m_ObjectHideFlags: 0
@@ -4517,6 +4561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0976b4757a354ba4d87bea10a4642e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Money: 0
 --- !u!1 &2125389975
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public List<Pokemon> ownedPokemons;
     public List<Item> ownedItems;
 
-    public static int Money;
+    public int Money;
 
     public void readDataFromSqlite()
     {
@@ -73,13 +73,8 @@ public class Player : MonoBehaviour
 
         while (dbr.Read())
         {
-            Debug.Log(dbr.GetInt32(0));
-            Player.Money = dbr.GetInt32(0);
+            Money = dbr.GetInt32(0);
         }
-
-
-
-
 
         dbc.Close();
     }

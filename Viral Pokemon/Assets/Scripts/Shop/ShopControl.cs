@@ -6,44 +6,45 @@ using UnityEngine.SceneManagement;
 
 public class ShopControl : MonoBehaviour
 {
-    static int sumMoney;
-    static int amountItem1;
-    static int amountItem2;
 
     public int priceMaxElixir;
     public int priceMaxPotion;
 
     public Text moneyAmountText;
     public Text amountItem1Text;
-    public Text amountItem2Text;
 
     public Button buyButton1;
     public Button buyButton2;
 
+    public Player playerManager;
+
     // Start is called before the first frame update
     void Start()
     {
-
-        sumMoney = 10000;
+        playerManager = FindObjectOfType<Player>();
         priceMaxElixir = 100;
         priceMaxPotion = 200;
-        amountItem1 = 0;
-        amountItem2 = 0;
+
+        moneyAmountText = GameObject.Find("Money").GetComponent<Text>();
+        amountItem1Text = GameObject.Find("Data").GetComponent<Text>();
+
+        buyButton1 = GameObject.Find("Item1_Button").GetComponent<Button>();
+        buyButton2 = GameObject.Find("Item2_Button").GetComponent<Button>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        moneyAmountText.text = sumMoney.ToString();
+        moneyAmountText.text = playerManager.Money.ToString();
 
-        if (sumMoney >= 100)
+        if (playerManager.Money >= 100)
         {
             buyButton1.interactable = true;
         }
         else
             buyButton1.interactable = false;
 
-        if (sumMoney >= 200)
+        if (playerManager.Money >= 200)
         {
             buyButton2.interactable = true;
         }
@@ -55,17 +56,17 @@ public class ShopControl : MonoBehaviour
 
     public void buyItem1()
     {
-        sumMoney -= 100;
-        amountItem1++;
-        moneyAmountText.text = sumMoney.ToString();
-        amountItem1Text.text = amountItem1.ToString();
+        playerManager.Money -= 100;
+        playerManager.ownedItems[1].amount++;
+        moneyAmountText.text = playerManager.Money.ToString();
+        amountItem1Text.text = "x " + playerManager.ownedItems[1].amount.ToString();
     }
 
     public void buyItem2()
     {
-        sumMoney -= 200;
-        amountItem2++;
-        moneyAmountText.text = sumMoney.ToString();
-        amountItem2Text.text = amountItem2.ToString();
+        playerManager.Money -= 200;
+        playerManager.ownedItems[0].amount++;
+        moneyAmountText.text = playerManager.Money.ToString();
+        amountItem1Text.text = "x " + playerManager.ownedItems[0].amount.ToString();
     }
 }
