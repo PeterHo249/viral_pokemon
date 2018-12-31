@@ -10,8 +10,7 @@ public class LevelManager : MonoBehaviour
     public List<Pokemon> Collection;
     public bool state;
     public static int level = 0;
-
-
+    public static List<List<Pokemon>> dataLevel;
 
     public void LoadData()
     {
@@ -60,50 +59,56 @@ public class LevelManager : MonoBehaviour
         dbc.Close();
     }
 
-    public List<Pokemon> RandomPokemons(int typePokemon)
+    public void PrepareData()
     {
-        List<Pokemon> ret = new List<Pokemon>();
-        List<Pokemon> temp = new List<Pokemon>();
+        dataLevel = new List<List<Pokemon>>();
+        dataLevel.Add(new List<Pokemon>() { Collection[0]});
+        dataLevel.Add(new List<Pokemon>() { Collection[3]});
+        dataLevel.Add(new List<Pokemon>() { Collection[6]});
+        dataLevel.Add(new List<Pokemon>() { Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[9], Collection[10] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
 
-        foreach (Pokemon p in Collection)
-        {
-            if (p.type.Count == 2)
-            {
-                if (p.type[0] == typePokemon || p.type[1] == typePokemon)
-                {
-                    temp.Add(p.Clone());
-                }
-                    
-            }
-            if (p.type.Count == 1)
-            {
-                if (p.type[0] == typePokemon)
-                {
-                    temp.Add(p.Clone());
-                }
-                    
-            }
-
-        }
-
-        for (int i = 0; i < 2; i++ )
-        {
-            System.Random r = new System.Random();
-            int k = r.Next(0, temp.Count);
-            ret.Add(temp[k].Clone());
-            temp.RemoveAt(k);
-            
-        }
-        Debug.Log(ret[0].pokemonName);
-        Debug.Log(ret[1].pokemonName);
-        return ret;
     }
 
     // Start is called before the first frame update
     void Start()
     {
         LoadData();
-        RandomPokemons(2);
+        PrepareData();
         state = false;
     }
 

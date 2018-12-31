@@ -6,19 +6,18 @@ using UnityEngine.UI;
 
 public class TalkObstacle : MonoBehaviour
 {
-    public Text TalkText;
-    public GameObject Dialog;
-    public LevelManager levelManager;
 
     public bool isCollise;
 
     public int number;
 
     public string talk = "Press Space to talk";
+
+    public static List<Pokemon> fetch = new List<Pokemon>();
+
     // Start is called before the first frame update
     void Start()
     {
-        levelManager = FindObjectOfType<LevelManager>();
         isCollise = true;
         GameObject.Find("obstacle1").GetComponent<BoxCollider2D>().isTrigger = true;
         GameObject.Find("obstacle2").GetComponent<BoxCollider2D>().isTrigger = true;
@@ -28,42 +27,14 @@ public class TalkObstacle : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isCollise == true)
-        {
-            if (levelManager.state == true)
+        {            
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                levelManager.state = false;
+                fetch = LevelManager.dataLevel[(LevelHandler.level - 1) * 3 + LevelManager.level];
+                SceneManager.LoadScene("BattleScene");
             }
-            else
-            {
-                levelManager.state = true;
-            }
-            if (levelManager.state)
-            {
-                //ShowElement();
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    SceneManager.LoadScene("BattleScene");
-                }
-            }
-            else
-            {
-                //HideElement();
-            }
-
         }
     }
-
-    //public void ShowElement()
-    //{
-    //    Dialog.SetActive(true);
-    //    TalkText.text = "Let's battle";
-    //}
-
-    //public void HideElement()
-    //{
-    //    Dialog.SetActive(false);
-    //    TalkText.text = "";
-    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

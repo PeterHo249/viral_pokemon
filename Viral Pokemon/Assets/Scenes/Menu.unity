@@ -509,6 +509,36 @@ PrefabInstance:
       propertyPath: m_Text
       value: Shop
       objectReference: {fileID: 0}
+    - target: {fileID: 6293668552179329140, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293668552179329140, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293668552179329140, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293668552179329140, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293668552179329140, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293668552179329140, guid: 189a84dee1a1417448084537ba208096,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 189a84dee1a1417448084537ba208096, type: 3}
 --- !u!1 &497913552 stripped
