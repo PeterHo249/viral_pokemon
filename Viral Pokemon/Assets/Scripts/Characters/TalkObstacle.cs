@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class TalkObstacle : MonoBehaviour
 {
-    public Text InputText;
     public Text TalkText;
     public GameObject Dialog;
     public LevelManager levelManager;
@@ -33,16 +32,14 @@ public class TalkObstacle : MonoBehaviour
             if (levelManager.state == true)
             {
                 levelManager.state = false;
-                InputText.text = "";
             }
             else
             {
                 levelManager.state = true;
-                InputText.text = "";
             }
             if (levelManager.state)
             {
-                ShowElement();
+                //ShowElement();
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     SceneManager.LoadScene("BattleScene");
@@ -50,30 +47,29 @@ public class TalkObstacle : MonoBehaviour
             }
             else
             {
-                HideElement();
+                //HideElement();
             }
 
         }
     }
 
-    public void ShowElement()
-    {
-        Dialog.SetActive(true);
-        TalkText.text = "Let's battle";
-    }
+    //public void ShowElement()
+    //{
+    //    Dialog.SetActive(true);
+    //    TalkText.text = "Let's battle";
+    //}
 
-    public void HideElement()
-    {
-        Dialog.SetActive(false);
-        TalkText.text = "";
-    }
+    //public void HideElement()
+    //{
+    //    Dialog.SetActive(false);
+    //    TalkText.text = "";
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             isCollise = true;
-            InputText.text = (talk);
             Debug.Log(LevelManager.level + 1);
             
             if (LevelManager.level + 1 == 1)
@@ -104,8 +100,7 @@ public class TalkObstacle : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            isCollise = false;;
-            InputText.text = ("");
+            isCollise = false;
         }
     }
 }
