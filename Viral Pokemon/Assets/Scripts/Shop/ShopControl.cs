@@ -7,20 +7,28 @@ using UnityEngine.SceneManagement;
 public class ShopControl : MonoBehaviour
 {
     static int sumMoney;
-    static int maxAmount = 10;
-    static int amount;
+    static int amountItem1;
+    static int amountItem2;
+
+    public int priceMaxElixir;
+    public int priceMaxPotion;
 
     public Text moneyAmountText;
-    public Text AmoutItem;
-    public Text moneyItem;
-    public Button buyButton;
+    public Text amountItem1Text;
+    public Text amountItem2Text;
+
+    public Button buyButton1;
+    public Button buyButton2;
 
     // Start is called before the first frame update
     void Start()
     {
 
-        sumMoney = 1000000;
-        amount = 0;
+        sumMoney = 10000;
+        priceMaxElixir = 100;
+        priceMaxPotion = 200;
+        amountItem1 = 0;
+        amountItem2 = 0;
     }
 
     // Update is called once per frame
@@ -29,40 +37,35 @@ public class ShopControl : MonoBehaviour
         moneyAmountText.text = sumMoney.ToString();
 
         if (sumMoney >= 100)
-            buyButton.interactable = true;
+        {
+            buyButton1.interactable = true;
+        }
         else
-            buyButton.interactable = false;
+            buyButton1.interactable = false;
+
+        if (sumMoney >= 200)
+        {
+            buyButton2.interactable = true;
+        }
+        else
+            buyButton2.interactable = false;
     }
 
 
 
-    public void buyItem()
+    public void buyItem1()
     {
-        sumMoney -= 100*amount;
+        sumMoney -= 100;
+        amountItem1++;
         moneyAmountText.text = sumMoney.ToString();
+        amountItem1Text.text = amountItem1.ToString();
     }
 
-    public void Up()
+    public void buyItem2()
     {
-        if (amount < maxAmount)
-        {
-            amount += 1;
-            AmoutItem.text = amount.ToString();
-            moneyItem.text = (amount * 100).ToString();
-        }
-        if(amount * 100 < sumMoney)
-            buyButton.interactable = false;
-    }
-
-    public void Down()
-    {
-        if (amount > 0)
-        {
-            amount -= 1;
-            AmoutItem.text = amount.ToString();
-            moneyItem.text = (amount * 100).ToString();
-        }
-        if (amount * 100 < sumMoney)
-            buyButton.interactable = false;
+        sumMoney -= 200;
+        amountItem2++;
+        moneyAmountText.text = sumMoney.ToString();
+        amountItem2Text.text = amountItem2.ToString();
     }
 }
