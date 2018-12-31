@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     public List<Pokemon> ownedPokemons;
     public List<Item> ownedItems;
 
+    public static int Money;
+
     public void readDataFromSqlite()
     {
         ownedPokemons = new List<Pokemon>();
@@ -64,6 +66,20 @@ public class Player : MonoBehaviour
         {
             ownedItems.Add(new Item(dbr.GetInt32(0), dbr.GetString(1), dbr.GetInt32(2)));
         }
+
+        // load money
+        dbcm.CommandText = "select money from PlayerInfo";
+        dbr = dbcm.ExecuteReader();
+
+        while (dbr.Read())
+        {
+            Debug.Log(dbr.GetInt32(0));
+            Player.Money = dbr.GetInt32(0);
+        }
+
+
+
+
 
         dbc.Close();
     }

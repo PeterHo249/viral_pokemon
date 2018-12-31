@@ -26,7 +26,7 @@ public class ShopControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moneyAmountText.text = sumMoney.ToString();
+        moneyAmountText.text = Player.Money.ToString();
 
         if (sumMoney >= 100)
             buyButton.interactable = true;
