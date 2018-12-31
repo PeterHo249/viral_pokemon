@@ -1,4 +1,4 @@
-﻿using Mono.Data.SqliteClient;
+using Mono.Data.SqliteClient;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
@@ -8,6 +8,7 @@ using System;
 public class LevelManager : MonoBehaviour
 {
     public List<Pokemon> Collection;
+    public bool state;
 
     public void LoadData()
     {
@@ -100,6 +101,7 @@ public class LevelManager : MonoBehaviour
     {
         LoadData();
         RandomPokemons(2);
+        state = false;
     }
 
     // Update is called once per frame
