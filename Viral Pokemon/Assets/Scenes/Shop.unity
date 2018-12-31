@@ -473,9 +473,10 @@ GameObject:
   - component: {fileID: 427947598}
   - component: {fileID: 427947597}
   - component: {fileID: 427947596}
+  - component: {fileID: 427947600}
   - component: {fileID: 427947599}
   m_Layer: 5
-  m_Name: Buy_Button
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -541,15 +542,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 427947599}
-        m_MethodName: buyItem
-        m_Mode: 1
+      - m_Target: {fileID: 427947600}
+        m_MethodName: changeMenuScenne
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -603,10 +604,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46608839b1f658e46a892815ba3d28ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  priceMaxElixir: 0
+  priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
-  AmoutItem: {fileID: 1850343700}
-  moneyItem: {fileID: 1682776924}
-  buyButton: {fileID: 427947596}
+  buyButton1: {fileID: 0}
+  buyButton2: {fileID: 0}
+--- !u!114 &427947600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427947594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b71fed2721c3e4487eb6bd5e5f5d4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &530143328
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +792,7 @@ GameObject:
   - component: {fileID: 688555656}
   - component: {fileID: 688555655}
   - component: {fileID: 688555654}
+  - component: {fileID: 688555657}
   m_Layer: 5
   m_Name: Item2_Button
   m_TagString: Untagged
@@ -868,6 +883,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 688555657}
+        m_MethodName: buyItem2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &688555655
@@ -907,6 +933,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688555652}
   m_CullTransparentMesh: 0
+--- !u!114 &688555657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688555652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46608839b1f658e46a892815ba3d28ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priceMaxElixir: 0
+  priceMaxPotion: 0
+  moneyAmountText: {fileID: 1758832245}
+  buyButton1: {fileID: 947822882}
+  buyButton2: {fileID: 688555654}
 --- !u!1 &732328042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,7 +1203,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy
+  m_Text: Back
 --- !u!222 &768222546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1419,6 +1462,7 @@ GameObject:
   - component: {fileID: 947822884}
   - component: {fileID: 947822883}
   - component: {fileID: 947822882}
+  - component: {fileID: 947822885}
   m_Layer: 5
   m_Name: Item1_Button
   m_TagString: Untagged
@@ -1509,6 +1553,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 947822885}
+        m_MethodName: buyItem1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &947822883
@@ -1548,6 +1603,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947822880}
   m_CullTransparentMesh: 0
+--- !u!114 &947822885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947822880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46608839b1f658e46a892815ba3d28ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priceMaxElixir: 0
+  priceMaxPotion: 0
+  moneyAmountText: {fileID: 1758832245}
+  buyButton1: {fileID: 947822882}
+  buyButton2: {fileID: 688555654}
 --- !u!1 &950972480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,7 +2155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1142742763
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2141,7 +2213,7 @@ Transform:
   m_GameObject: {fileID: 1142742762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -415, y: -220, z: 0}
-  m_LocalScale: {x: 0.94, y: 1, z: 1}
+  m_LocalScale: {x: 0.94000006, y: 1, z: 1}
   m_Children:
   - {fileID: 362201668}
   - {fileID: 993844901}
@@ -2799,7 +2871,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1441270418
 Transform:
   m_ObjectHideFlags: 0
@@ -3354,10 +3426,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46608839b1f658e46a892815ba3d28ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  priceMaxElixir: 0
+  priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
-  AmoutItem: {fileID: 1850343700}
-  moneyItem: {fileID: 1682776924}
-  buyButton: {fileID: 427947596}
+  buyButton1: {fileID: 0}
+  buyButton2: {fileID: 0}
 --- !u!1 &1637421589
 GameObject:
   m_ObjectHideFlags: 0
@@ -3820,10 +3893,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46608839b1f658e46a892815ba3d28ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  priceMaxElixir: 0
+  priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
-  AmoutItem: {fileID: 1850343700}
-  moneyItem: {fileID: 1682776924}
-  buyButton: {fileID: 427947596}
+  buyButton1: {fileID: 0}
+  buyButton2: {fileID: 0}
 --- !u!1 &1795629914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4400,10 +4474,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46608839b1f658e46a892815ba3d28ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  priceMaxElixir: 0
+  priceMaxPotion: 0
   moneyAmountText: {fileID: 1758832245}
-  AmoutItem: {fileID: 1850343700}
-  moneyItem: {fileID: 1682776924}
-  buyButton: {fileID: 427947596}
+  buyButton1: {fileID: 947822882}
+  buyButton2: {fileID: 688555654}
 --- !u!4 &2018380269
 Transform:
   m_ObjectHideFlags: 0
