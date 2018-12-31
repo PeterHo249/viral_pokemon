@@ -40,7 +40,7 @@ public class ButtonHandler : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Level");
+            SceneManager.LoadScene("Level" + LevelHandler.level);
         }
     }
 

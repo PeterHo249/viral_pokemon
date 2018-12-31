@@ -35,42 +35,20 @@ public class BattleManager : MonoBehaviour
         playerManager = FindObjectOfType<Player>();
 
         pokemonsPlayer = new List<Pokemon>();
-        pokemonsAI = new List<Pokemon>();
+        for (int i = 0; i < playerManager.ownedPokemons.Count; i++)
+        {
+            pokemonsPlayer.Add(playerManager.ownedPokemons[i].Clone());
+        }
 
-
-
-        Pokemon pokemon = new Pokemon(1, "Bulbasuar", 45, 49, 49, 45, 1);
-        pokemon.skills.Add(new PokemonSkill(1, "Posion", 8, 10, 30));
-        pokemon.skills.Add(new PokemonSkill(2, "Seed", 5, 5, 30));
-        pokemon.type.Add(5);
-        pokemon.type.Add(8);
-
-        Pokemon pokemon1 = new Pokemon(1, "Bulbasuar", 45, 49, 49, 45, 1);
-        pokemon1.skills.Add(new PokemonSkill(1, "Posion", 8, 10, 30));
-        pokemon1.skills.Add(new PokemonSkill(2, "Seed", 5, 5, 30));
-        pokemon1.type.Add(5);
-        pokemon1.type.Add(8);
-
-        Pokemon pokemon2 = new Pokemon(4, "Charmander", 39, 52, 43, 65, 1);
-        pokemon2.skills.Add(new PokemonSkill(3, "Fire burn", 2, 10, 30));
-        pokemon2.skills.Add(new PokemonSkill(4, "Fire blast", 2, 100, 5));
-        pokemon2.type.Add(2);
-
-        Pokemon pokemon3 = new Pokemon(4, "Charmander", 39, 52, 43, 65, 1);
-        pokemon3.skills.Add(new PokemonSkill(3, "Fire burn", 2, 10, 30));
-        pokemon3.skills.Add(new PokemonSkill(4, "Fire blast", 2, 100, 5));
-        pokemon3.type.Add(2);
-
-        pokemonsPlayer.Add(pokemon);
-        //pokemonsPlayer.Add(pokemon2);
-        pokemonsAI.Add(pokemon1);
-        //pokemonsAI.Add(pokemon3);
+        pokemonsAI = TalkObstacle.fetch;
 
         currentAI = pokemonsAI[0];
         currentPlayer = pokemonsPlayer[0];
 
+
+
         playerItems = new List<Item>();
-        playerItems.Add(new Item(1, "Max Potion", 1));
+        playerItems = playerManager.ownedItems;
     }
 
     public void MappingUI()
@@ -233,9 +211,11 @@ public class BattleManager : MonoBehaviour
     {
         if (currentAI.currentHp > 0)
         {
+            Debug.Log(currentPlayer.currentHp);
             currentPlayer.currentHp -= currentAI.skills[0].power
                          + currentAI.attack
                          - currentPlayer.defense;
+            Debug.Log(currentPlayer.currentHp);
             if (currentPlayer.currentHp < 0)
             {
                 currentPlayer.currentHp = 0;
@@ -264,7 +244,7 @@ public class BattleManager : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene("Level");
+                    SceneManager.LoadScene("Level" + LevelHandler.level.ToString());
                 }
                 
             }
