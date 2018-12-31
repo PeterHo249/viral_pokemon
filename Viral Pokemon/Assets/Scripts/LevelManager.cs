@@ -9,7 +9,9 @@ public class LevelManager : MonoBehaviour
 {
     public List<Pokemon> Collection;
     public bool state;
-    public int level;
+    public static int level = 0;
+
+
 
     public void LoadData()
     {
@@ -103,7 +105,6 @@ public class LevelManager : MonoBehaviour
         LoadData();
         RandomPokemons(2);
         state = false;
-        level = 0;
     }
 
     // Update is called once per frame

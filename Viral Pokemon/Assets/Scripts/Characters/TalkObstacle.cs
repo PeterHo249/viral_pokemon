@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TalkObstacle : MonoBehaviour
@@ -10,7 +11,7 @@ public class TalkObstacle : MonoBehaviour
     public GameObject Dialog;
     public LevelManager levelManager;
 
-    public bool isCollise = false;
+    public bool isCollise;
 
     public int number;
 
@@ -19,6 +20,10 @@ public class TalkObstacle : MonoBehaviour
     void Start()
     {
         levelManager = FindObjectOfType<LevelManager>();
+        isCollise = true;
+        GameObject.Find("obstacle1").GetComponent<BoxCollider2D>().isTrigger = true;
+        GameObject.Find("obstacle2").GetComponent<BoxCollider2D>().isTrigger = true;
+        GameObject.Find("obstacle3").GetComponent<BoxCollider2D>().isTrigger = true;
     }
 
     void Update()
@@ -38,6 +43,10 @@ public class TalkObstacle : MonoBehaviour
             if (levelManager.state)
             {
                 ShowElement();
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    SceneManager.LoadScene("BattleScene");
+                }
             }
             else
             {
@@ -45,21 +54,12 @@ public class TalkObstacle : MonoBehaviour
             }
 
         }
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            GameObject.Find("obstacle1").GetComponent<BoxCollider2D>().isTrigger = true;
-        }
     }
 
     public void ShowElement()
     {
         Dialog.SetActive(true);
-        TalkText.text = "123456789 123456789 123456789 123456789 123456789 123456789 123456789";
-        if (number == levelManager.level + 1)
-        {
-            print("Chuan bi danh");
-        }
+        TalkText.text = "Let's battle";
     }
 
     public void HideElement()
@@ -74,7 +74,21 @@ public class TalkObstacle : MonoBehaviour
         {
             isCollise = true;
             InputText.text = (talk);
-            GameObject.Find("obstacle1").GetComponent<BoxCollider2D>().isTrigger = false;
+            Debug.Log(LevelManager.level + 1);
+            
+            if (LevelManager.level + 1 == 1)
+            {
+                GameObject.Find("obstacle1").GetComponent<BoxCollider2D>().isTrigger = false;
+            }
+            if (LevelManager.level + 1 == 2)
+            {
+                GameObject.Find("obstacle2").GetComponent<BoxCollider2D>().isTrigger = false;
+            }
+            if (LevelManager.level + 1 == 3)
+            {
+                GameObject.Find("obstacle3").GetComponent<BoxCollider2D>().isTrigger = false;
+            }
+           
         }
     }
 

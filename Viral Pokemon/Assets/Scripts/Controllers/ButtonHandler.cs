@@ -6,16 +6,14 @@ using UnityEngine.UI;
 
 public class ButtonHandler : MonoBehaviour
 {
-    public LevelHandler levelHandler;
     public int level;
     public Button button;
     // Start is called before the first frame update
     void Start()
     {
-        levelHandler = FindObjectOfType<LevelHandler>();
         if (level != 0)
         {
-            if (level > levelHandler.level)
+            if (level > LevelHandler.level)
             {
                 button.enabled = false;
                 button.image.color = Color.gray;
@@ -36,7 +34,7 @@ public class ButtonHandler : MonoBehaviour
 
     public void OnButtonTapped()
     {
-        if (level > levelHandler.level)
+        if (level > LevelHandler.level)
         {
             print("You can't play this level");
         }

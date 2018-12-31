@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelHandler : MonoBehaviour
 {
-    public int level;
+    public static int level = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +18,6 @@ public class LevelHandler : MonoBehaviour
 
     public void SetLevel(int level)
     {
-        this.level = level;
+        LevelHandler.level = level;
     }
 }
