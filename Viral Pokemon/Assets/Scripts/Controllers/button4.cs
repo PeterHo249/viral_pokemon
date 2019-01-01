@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,10 +15,15 @@ public class button4 : MonoBehaviour
         if (text1.text != "None")
         {
 
-            battleManager.currentPlayer.skills[2].pp--;
-            battleManager.currentAI.currentHp -= battleManager.currentPlayer.skills[2].power
-                                                + battleManager.currentPlayer.attack
-                                                - battleManager.currentAI.defense;
+            battleManager.currentPlayer.skills[3].pp--;
+            double hp = (battleManager.currentPlayer.skills[3].power + battleManager.currentPlayer.attack - battleManager.currentAI.defense) * BattleManager.KyHe[battleManager.currentAI.type[0] - 1, battleManager.currentPlayer.skills[3].type - 1];
+
+            if (hp <= 0)
+                hp = 1;
+
+            hp = Math.Round(hp, 0);
+
+            battleManager.currentAI.currentHp -= (int)hp;
             if (battleManager.currentAI.currentHp < 0)
             {
                 battleManager.FadeOut(battleManager.PokemonAI);

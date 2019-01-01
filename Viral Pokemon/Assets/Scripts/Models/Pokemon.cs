@@ -35,9 +35,10 @@ public class Pokemon
     public void ScaleByLevel()
     {
         System.Random r = new System.Random();
-        this.maxHp += (this.level - 1) * r.Next(10, 12);
-        this.attack += (this.level - 1) * r.Next(2, 5);
-        this.speed += (this.level - 1) * r.Next(2, 5);
+        this.maxHp += (this.level - 1) * 20;
+        this.attack += (this.level - 1) * 5;
+        this.speed += (this.level - 1) * 5;
+        this.defense += (this.level - 1) * 5;
     }
 
     public Pokemon Clone()

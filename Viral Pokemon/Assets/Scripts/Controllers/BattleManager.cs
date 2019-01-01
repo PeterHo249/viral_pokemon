@@ -30,6 +30,27 @@ public class BattleManager : MonoBehaviour
     public GameObject BallAI;
 
 
+    // cột j đánh hàng i nhân damge A[i][j]
+    public static double[,] KyHe = new double[,] { {1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1},
+                                            {1,0.5f,2,1,0.5f,0.5f,1,1,2,1,1,0.5f,2,1,1,1,0.5f,0.5f},
+                                            {1,0.5f,0.5f,2,2,0.5f,1,1,1,1,1,1,1,1,1,1,0.5f,1},
+                                            {1,1,1,0.5f,1,1,1,1,2,0.5f,1,1,1,1,1,1,0.5f,1},
+                                            {1,2,0.5f,0.5f,0.5f,2,1,2,0.5f,2,1,2,1,1,1,1,1,1},
+                                            {1,2,1,1,1,0.5f,2,1,1,1,1,1,2,1,1,1,2,1},
+                                            {1,1,1,1,1,1,1,1,1,2,2,0.5f,0.5f,1,1,0.5f,1,2},
+                                            {1,1,1,1,0.5f,1,0.5f,0.5f,2,1,2,0.5f,1,1,1,1,1,0.5f},
+                                            {1,1,2,0,2,2,1,0.5f,1,1,1,1,0.5f,1,1,1,1,1},
+                                            {1,1,1,2,0.5f,2,0.5f,1,0,1,1,0.5f,2,1,1,1,1,1},
+                                            {1,1,1,1,1,1,0.5f,1,1,1,0.5f,2,1,2,1,2,1,1},
+                                            {1,2,1,1,0.5f,1,0.5f,1,0.5f,2,1,1,2,1,1,1,1,1},
+                                            {0.5f,0.5f,2,1,2,1,2,0.5f,2,0.5f,1,1,1,1,1,1,2,1},
+                                            {0,1,1,1,1,1,0,0.5f,1,1,1,0.5f,1,2,1,2,1,1},
+                                            {1,0.5f,0.5f,0.5f,0.5f,2,1,1,1,1,1,1,1,1,2,1,1,2},
+                                            {1,1,1,1,1,1,2,1,1,1,0,2,1,0.5f,1,0.5f,1,2},
+                                            {0.5f,2,1,1,0.5f,0.5f,2,0,2,0.5f,0.5f,0.5f,0.5f,1,0.5f,1,0.5f,0.5f},
+                                            {1,1,1,1,1,1,0.5f,2,1,1,1,0.5f,1,1,0,0.5f,2,1}};
+
+
     public void LoadData()
     {
         playerManager = FindObjectOfType<Player>();
@@ -211,11 +232,13 @@ public class BattleManager : MonoBehaviour
     {
         if (currentAI.currentHp > 0)
         {
-            Debug.Log(currentPlayer.currentHp);
-            currentPlayer.currentHp -= currentAI.skills[0].power
-                         + currentAI.attack
-                         - currentPlayer.defense;
-            Debug.Log(currentPlayer.currentHp);
+            int hp = currentAI.skills[0].power + currentAI.attack - currentPlayer.defense;
+
+            if (hp <= 0)
+                hp = 1;
+
+            currentPlayer.currentHp -= hp;
+
             if (currentPlayer.currentHp < 0)
             {
                 currentPlayer.currentHp = 0;

@@ -8,25 +8,58 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: fae04cb72e74f2947b29e760c3680935
-  - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 3124a403cf0707c4888a4d410ed1ec6d
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: fae04cb72e74f2947b29e760c3680935
+  - enabled: 1
     path: Assets/Scenes/MapScene.unity
     guid: b6e880c994c60cb4cb87997923bb9b18
-  - enabled: 1
-    path: Assets/Scenes/BattleScene.unity
-    guid: 043c78d43eaaf804c9beb68c6c36d048
   - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: f107afd14099b014d98d664088a28ee0
   - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 3124a403cf0707c4888a4d410ed1ec6d
+  - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: ecf1e66fb304c3b45b42fed0b58d47b9
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 7356175c4d81ab54394ace7553f89aaa
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: a359df39a2b533540bf7ea2bb9c27e6b
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 88d2a3457c684fe4ab56e7909223fc51
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: 16f37887d0b592b4790865acf0094cd9
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 7e641a32000c2094da26b91ca7091159
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: 9dec278e2fd6e254fbf69026cc6825b1
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: e77022d1c8200084e8fe1ee54d01b0c0
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: 43a6509901e17264fae454e12096ea54
+  - enabled: 1
+    path: Assets/Scenes/Level11.unity
+    guid: 8d31baaedea33d74895a6ecdf4233048
+  - enabled: 1
+    path: Assets/Scenes/Level12.unity
+    guid: a60fab9686933c7439cc0953eff405f6
+  - enabled: 1
+    path: Assets/Scenes/Level13.unity
+    guid: 58e65dfb45da0134b9c13f833ab8c34e
+  - enabled: 1
+    path: Assets/Scenes/BattleScene.unity
+    guid: 043c78d43eaaf804c9beb68c6c36d048
   m_configObjects: {}

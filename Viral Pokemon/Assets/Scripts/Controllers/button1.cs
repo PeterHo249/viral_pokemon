@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -52,9 +53,16 @@ public class button1 : MonoBehaviour
             {
 
                 battleManager.currentPlayer.skills[0].pp--;
-                battleManager.currentAI.currentHp -= battleManager.currentPlayer.skills[0].power
-                                                    + battleManager.currentPlayer.attack
-                                                    - battleManager.currentAI.defense;
+
+                double hp = (battleManager.currentPlayer.skills[0].power + battleManager.currentPlayer.attack - battleManager.currentAI.defense) * BattleManager.KyHe[battleManager.currentAI.type[0] - 1, battleManager.currentPlayer.skills[0].type - 1];
+ 
+                if (hp <= 0)
+                    hp = 1;
+
+                hp = Math.Round(hp, 0);
+
+                battleManager.currentAI.currentHp -= (int) hp;
+
                 if (battleManager.currentAI.currentHp < 0)
                 {
                     battleManager.currentAI.currentHp = 0;
