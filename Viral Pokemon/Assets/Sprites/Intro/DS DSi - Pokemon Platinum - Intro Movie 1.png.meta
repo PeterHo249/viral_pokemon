@@ -1,47 +1,48 @@
 fileFormatVersion: 2
-guid: 20c0c3bd6dcbc024487d8171c5d90dfb
+guid: 7d6e437d203e7cd4c9b8229f44d3a20c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: DS DSi - Pokemon Platinum - Intro Movie_0
-    21300002: DS DSi - Pokemon Platinum - Intro Movie_1
-    21300004: DS DSi - Pokemon Platinum - Intro Movie_2
-    21300006: DS DSi - Pokemon Platinum - Intro Movie_3
-    21300008: DS DSi - Pokemon Platinum - Intro Movie_4
-    21300010: DS DSi - Pokemon Platinum - Intro Movie_5
-    21300012: DS DSi - Pokemon Platinum - Intro Movie_6
-    21300014: DS DSi - Pokemon Platinum - Intro Movie_7
-    21300016: DS DSi - Pokemon Platinum - Intro Movie_8
-    21300018: DS DSi - Pokemon Platinum - Intro Movie_9
-    21300020: DS DSi - Pokemon Platinum - Intro Movie_10
-    21300022: DS DSi - Pokemon Platinum - Intro Movie_11
-    21300024: DS DSi - Pokemon Platinum - Intro Movie_12
-    21300026: DS DSi - Pokemon Platinum - Intro Movie_13
-    21300028: DS DSi - Pokemon Platinum - Intro Movie_14
-    21300030: DS DSi - Pokemon Platinum - Intro Movie_15
-    21300032: DS DSi - Pokemon Platinum - Intro Movie_16
-    21300034: DS DSi - Pokemon Platinum - Intro Movie_17
-    21300036: DS DSi - Pokemon Platinum - Intro Movie_18
-    21300038: DS DSi - Pokemon Platinum - Intro Movie_19
-    21300040: DS DSi - Pokemon Platinum - Intro Movie_20
-    21300042: DS DSi - Pokemon Platinum - Intro Movie_21
-    21300044: DS DSi - Pokemon Platinum - Intro Movie_22
-    21300046: DS DSi - Pokemon Platinum - Intro Movie_23
-    21300048: DS DSi - Pokemon Platinum - Intro Movie_24
-    21300050: DS DSi - Pokemon Platinum - Intro Movie_25
-    21300052: DS DSi - Pokemon Platinum - Intro Movie_26
-    21300054: DS DSi - Pokemon Platinum - Intro Movie_27
-    21300056: DS DSi - Pokemon Platinum - Intro Movie_28
-    21300058: DS DSi - Pokemon Platinum - Intro Movie_29
-    21300060: DS DSi - Pokemon Platinum - Intro Movie_30
-    21300062: DS DSi - Pokemon Platinum - Intro Movie_31
-    21300064: DS DSi - Pokemon Platinum - Intro Movie_32
-    21300066: DS DSi - Pokemon Platinum - Intro Movie_33
-    21300068: DS DSi - Pokemon Platinum - Intro Movie_34
-    21300070: DS DSi - Pokemon Platinum - Intro Movie_35
-    21300072: DS DSi - Pokemon Platinum - Intro Movie_36
-    21300074: DS DSi - Pokemon Platinum - Intro Movie_37
-    21300076: DS DSi - Pokemon Platinum - Intro Movie_38
-    21300078: DS DSi - Pokemon Platinum - Intro Movie_39
+    21300000: DS DSi - Pokemon Platinum - Intro Movie 1_0
+    21300002: DS DSi - Pokemon Platinum - Intro Movie 1_1
+    21300004: DS DSi - Pokemon Platinum - Intro Movie 1_2
+    21300006: DS DSi - Pokemon Platinum - Intro Movie 1_3
+    21300008: DS DSi - Pokemon Platinum - Intro Movie 1_4
+    21300010: DS DSi - Pokemon Platinum - Intro Movie 1_5
+    21300012: DS DSi - Pokemon Platinum - Intro Movie 1_6
+    21300014: DS DSi - Pokemon Platinum - Intro Movie 1_7
+    21300016: DS DSi - Pokemon Platinum - Intro Movie 1_8
+    21300018: DS DSi - Pokemon Platinum - Intro Movie 1_9
+    21300020: DS DSi - Pokemon Platinum - Intro Movie 1_10
+    21300022: DS DSi - Pokemon Platinum - Intro Movie 1_11
+    21300024: DS DSi - Pokemon Platinum - Intro Movie 1_12
+    21300026: DS DSi - Pokemon Platinum - Intro Movie 1_13
+    21300028: DS DSi - Pokemon Platinum - Intro Movie 1_14
+    21300030: DS DSi - Pokemon Platinum - Intro Movie 1_15
+    21300032: DS DSi - Pokemon Platinum - Intro Movie 1_16
+    21300034: DS DSi - Pokemon Platinum - Intro Movie 1_17
+    21300036: DS DSi - Pokemon Platinum - Intro Movie 1_18
+    21300038: DS DSi - Pokemon Platinum - Intro Movie 1_19
+    21300040: DS DSi - Pokemon Platinum - Intro Movie 1_20
+    21300042: DS DSi - Pokemon Platinum - Intro Movie 1_21
+    21300044: DS DSi - Pokemon Platinum - Intro Movie 1_22
+    21300046: DS DSi - Pokemon Platinum - Intro Movie 1_23
+    21300048: DS DSi - Pokemon Platinum - Intro Movie 1_24
+    21300050: DS DSi - Pokemon Platinum - Intro Movie 1_25
+    21300052: DS DSi - Pokemon Platinum - Intro Movie 1_26
+    21300054: DS DSi - Pokemon Platinum - Intro Movie 1_27
+    21300056: DS DSi - Pokemon Platinum - Intro Movie 1_28
+    21300058: DS DSi - Pokemon Platinum - Intro Movie 1_29
+    21300060: DS DSi - Pokemon Platinum - Intro Movie 1_30
+    21300062: DS DSi - Pokemon Platinum - Intro Movie 1_31
+    21300064: DS DSi - Pokemon Platinum - Intro Movie 1_32
+    21300066: DS DSi - Pokemon Platinum - Intro Movie 1_33
+    21300068: DS DSi - Pokemon Platinum - Intro Movie 1_34
+    21300070: DS DSi - Pokemon Platinum - Intro Movie 1_37
+    21300072: DS DSi - Pokemon Platinum - Intro Movie 1_38
+    21300074: DS DSi - Pokemon Platinum - Intro Movie 1_39
+    21300076: DS DSi - Pokemon Platinum - Intro Movie 1_40
+    21300078: DS DSi - Pokemon Platinum - Intro Movie 1_41
+    21300080: DS DSi - Pokemon Platinum - Intro Movie 1_42
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -124,7 +125,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_0
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_0
       rect:
         serializedVersion: 2
         x: 2
@@ -132,19 +133,19 @@ TextureImporter:
         width: 256
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77e1357445db6094c8b682d12a82ce3a
+      spriteID: 4d808ac60a836754faf0d94f95eddd3b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_1
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_1
       rect:
         serializedVersion: 2
         x: 260
@@ -152,19 +153,19 @@ TextureImporter:
         width: 256
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9d086a52a9dec043adedb31143888ea
+      spriteID: dfc8433c23a13af4183a783bc45e593d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_2
       rect:
         serializedVersion: 2
         x: 518
@@ -172,19 +173,19 @@ TextureImporter:
         width: 256
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 764e2064b132f0b42a3ca27d8bc24c8a
+      spriteID: 5b3354b7511deec489140e5ca3d4930f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_3
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_3
       rect:
         serializedVersion: 2
         x: 776
@@ -192,19 +193,19 @@ TextureImporter:
         width: 256
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c5a4b461fe7d0e44ae185fe5f982e64
+      spriteID: 950775d8848e35a41a7cb7dd2d2d068b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_4
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_4
       rect:
         serializedVersion: 2
         x: 1034
@@ -212,19 +213,19 @@ TextureImporter:
         width: 256
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad95e3593496bb4eb16e8f48c5fcbab
+      spriteID: c068354df3b1fc04f8c5d2730c83000d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_5
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_5
       rect:
         serializedVersion: 2
         x: 1034
@@ -232,19 +233,19 @@ TextureImporter:
         width: 256
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 371324bc8056ee64fbbc819607e03b22
+      spriteID: 1300988deb714004db9e6e3133c27ebe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_6
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_6
       rect:
         serializedVersion: 2
         x: 2
@@ -252,59 +253,19 @@ TextureImporter:
         width: 256
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93b7bdd0c4c76844396ca453b714f315
+      spriteID: 1f2c277f004b0b14a895adeb388f310e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_7
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 306
-        width: 256
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82c8118aab2afe74fa755bbf1096af6d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_8
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 306
-        width: 256
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8df2b5f12b6e78042a3fe183f27664f7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_9
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_7
       rect:
         serializedVersion: 2
         x: 809
@@ -312,19 +273,19 @@ TextureImporter:
         width: 198
         height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 983ed7f54b42c9c4fae38d17ff49c316
+      spriteID: eaf3bc411e0fe6a4099da3e2b48c5da5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_10
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_8
       rect:
         serializedVersion: 2
         x: 1034
@@ -332,19 +293,19 @@ TextureImporter:
         width: 256
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f6b7e54e4c4e8148884272e2d5e10af
+      spriteID: 143472e6a778ca042a940366489e9733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_11
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_9
       rect:
         serializedVersion: 2
         x: 1034
@@ -352,19 +313,59 @@ TextureImporter:
         width: 256
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9009730171f69894b92fa6cd010e3002
+      spriteID: e92446cab5555d7448589feac12c4a87
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_12
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 306
+        width: 256
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6221bb3bd4df9c46bf504d55b947491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 306
+        width: 256
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a813fea47410f694ea9e7f17493665d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_12
       rect:
         serializedVersion: 2
         x: 1049
@@ -372,19 +373,19 @@ TextureImporter:
         width: 57
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb16b7999f0365f4aaea78327c2034eb
+      spriteID: 02a1586d2499b314a9c01e4fccaf151e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_13
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_13
       rect:
         serializedVersion: 2
         x: 1101
@@ -392,19 +393,19 @@ TextureImporter:
         width: 115
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8491a0b8fed31a74cb713ddff2cf5c15
+      spriteID: 2f1c9b83af5bc674c8c0c607c1aa6dd8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_14
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_14
       rect:
         serializedVersion: 2
         x: 1223
@@ -412,19 +413,19 @@ TextureImporter:
         width: 54
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19d8a5f230172fc48a874b16ef3caa95
+      spriteID: 07a98137e73c8804c99156cca860eba2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_15
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_15
       rect:
         serializedVersion: 2
         x: 2
@@ -432,59 +433,19 @@ TextureImporter:
         width: 256
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbd415565de8e924bbe49b148bd8013f
+      spriteID: d0165b5cc8b9dac4fb53cbd264b290a3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_16
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 112
-        width: 256
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75c55deb113365e48acf000c53291df0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_17
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 112
-        width: 256
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e0da04d9ac39904298cfdcdedd6e9e5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_18
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_16
       rect:
         serializedVersion: 2
         x: 1052
@@ -492,19 +453,19 @@ TextureImporter:
         width: 55
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb44a1fd60ca24e4dbaf61e321c06296
+      spriteID: f94b79857602165488eae32c99e09472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_19
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_17
       rect:
         serializedVersion: 2
         x: 1107
@@ -512,19 +473,19 @@ TextureImporter:
         width: 109
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db784bc5a9d333e45b0f8945ab567c7b
+      spriteID: 32577235ebe6cc646ae2012915bea363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_20
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_18
       rect:
         serializedVersion: 2
         x: 1225
@@ -532,19 +493,19 @@ TextureImporter:
         width: 55
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abc673081c9c2c6478a4352a9ba17635
+      spriteID: 668292c0fabe1f94d878d23554d70537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_21
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_19
       rect:
         serializedVersion: 2
         x: 839
@@ -552,19 +513,19 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82ba9835703e04e4ca2b570e3af26c08
+      spriteID: 96bda7db283bce247bb312ff5ba29eed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_22
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_20
       rect:
         serializedVersion: 2
         x: 879
@@ -572,19 +533,19 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beccaaeeea11c7141a64c49346931430
+      spriteID: ac3f7feecf231db4ba8ef413438f5863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_23
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_21
       rect:
         serializedVersion: 2
         x: 920
@@ -592,19 +553,19 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28990ea4aa6e4f94d85aca25c3e1222f
+      spriteID: 66340177d7eb5474b8f03bb56939d955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_24
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_22
       rect:
         serializedVersion: 2
         x: 958
@@ -612,19 +573,19 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9878a057bc0138e43a170b881e8bc063
+      spriteID: 709291fe073652342af472143e84fcfc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_25
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_23
       rect:
         serializedVersion: 2
         x: 1043
@@ -632,19 +593,19 @@ TextureImporter:
         width: 58
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1abd41b5da79bd44acb5eb64258e92b
+      spriteID: 13f82052dadf9144981edf77e2cb8d70
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_26
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_24
       rect:
         serializedVersion: 2
         x: 1103
@@ -652,19 +613,19 @@ TextureImporter:
         width: 54
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde7fa201b048d04db59100e31df9d6f
+      spriteID: 0354a817a57c7c44c885a343c29c43ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_27
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_25
       rect:
         serializedVersion: 2
         x: 1159
@@ -672,19 +633,19 @@ TextureImporter:
         width: 59
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d009f44c73572f42ac8a06fccc9f494
+      spriteID: 8d547f6792a7671418767f71df9f7d43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_28
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_26
       rect:
         serializedVersion: 2
         x: 1220
@@ -692,19 +653,119 @@ TextureImporter:
         width: 59
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c55d9a379435cc4594e7b77a019a752
+      spriteID: 01ec61eac4cc32448a1bfd96a92b15a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_29
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_27
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 112
+        width: 91
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b0e04273a2c16428d294709c154eb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_28
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 112
+        width: 74
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e55fb80ec939a4ba3f52565fc6e2b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_29
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 112
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dccbafce29aae746b05325979b068a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_30
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 112
+        width: 77
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d6ba924e186824b990693cc86fef97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_31
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2843f1f8ed07864299d0108eed64753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_32
       rect:
         serializedVersion: 2
         x: 796
@@ -712,19 +773,19 @@ TextureImporter:
         width: 117
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92cd0f8c89b19b04eae47737bb58b184
+      spriteID: 66d7e96b80c774340a716d3903a07bb9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_30
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_33
       rect:
         serializedVersion: 2
         x: 917
@@ -732,79 +793,39 @@ TextureImporter:
         width: 111
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 136c842374011c7468cfb352631b210c
+      spriteID: d8f2fe97356b07c46bd7b9c97555d388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_31
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_34
       rect:
         serializedVersion: 2
-        x: 7
-        y: 4
-        width: 247
-        height: 101
+        x: 16
+        y: 10
+        width: 229
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 452d9e0058b7a7e45989a0ed9545630c
+      spriteID: 7dfe16941a3660c479d34af6369768bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_32
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 5
-        width: 247
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92705cadad6ff5b4c9ddda317b0c4d9d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_33
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 3
-        width: 248
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a05a616fb04772a459f4fbb71bbc89e7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_34
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_37
       rect:
         serializedVersion: 2
         x: 803
@@ -812,19 +833,19 @@ TextureImporter:
         width: 109
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bb12a98915b0ae478af7e7f986ae77c
+      spriteID: d0d7b20bf92d5f742860472292026116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_35
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_38
       rect:
         serializedVersion: 2
         x: 924
@@ -832,19 +853,19 @@ TextureImporter:
         width: 85
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46a81427c38856c4b932079499f7411a
+      spriteID: 137ecf53a84feee4e83b08c3e85e95bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_36
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_39
       rect:
         serializedVersion: 2
         x: 1078
@@ -852,19 +873,19 @@ TextureImporter:
         width: 64
         height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3504a47462294a449b94df38799912d
+      spriteID: 848e911c8b60aa7458f68333f8a520b6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_37
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_40
       rect:
         serializedVersion: 2
         x: 1189
@@ -872,19 +893,19 @@ TextureImporter:
         width: 64
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d7d063469b823140a295ea85e1a98ff
+      spriteID: d9a7ec3915b51364488b5d804100583f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_38
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_41
       rect:
         serializedVersion: 2
         x: 824
@@ -892,19 +913,19 @@ TextureImporter:
         width: 83
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23622e8c0fee9eb4e8becce5b6797c04
+      spriteID: f994632840de8ec4fb4fa2c2b75530a0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DS DSi - Pokemon Platinum - Intro Movie_39
+      name: DS DSi - Pokemon Platinum - Intro Movie 1_42
       rect:
         serializedVersion: 2
         x: 927
@@ -912,13 +933,13 @@ TextureImporter:
         width: 66
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 463fa62f8b219354aa33fc23ae49737d
+      spriteID: dc65729fc4c85094884f01a1e3e9d492
       vertices: []
       indices: 
       edges: []
@@ -926,7 +947,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9da58f05df005ed4eac66d849dac409a
+    spriteID: 6bdc286819f388348907b305f35cdee4
     vertices: []
     indices: 
     edges: []

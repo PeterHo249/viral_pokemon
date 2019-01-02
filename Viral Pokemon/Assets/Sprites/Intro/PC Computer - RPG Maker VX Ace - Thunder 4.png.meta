@@ -1,7 +1,29 @@
 fileFormatVersion: 2
 guid: 403520608944a8143af6b25808d44980
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: PC Computer - RPG Maker VX Ace - Thunder 4_0
+    21300002: PC Computer - RPG Maker VX Ace - Thunder 4_1
+    21300004: PC Computer - RPG Maker VX Ace - Thunder 4_2
+    21300006: PC Computer - RPG Maker VX Ace - Thunder 4_3
+    21300008: PC Computer - RPG Maker VX Ace - Thunder 4_4
+    21300010: PC Computer - RPG Maker VX Ace - Thunder 4_5
+    21300012: PC Computer - RPG Maker VX Ace - Thunder 4_6
+    21300014: PC Computer - RPG Maker VX Ace - Thunder 4_7
+    21300016: PC Computer - RPG Maker VX Ace - Thunder 4_8
+    21300018: PC Computer - RPG Maker VX Ace - Thunder 4_9
+    21300020: PC Computer - RPG Maker VX Ace - Thunder 4_10
+    21300022: PC Computer - RPG Maker VX Ace - Thunder 4_11
+    21300024: PC Computer - RPG Maker VX Ace - Thunder 4_12
+    21300026: PC Computer - RPG Maker VX Ace - Thunder 4_13
+    21300028: PC Computer - RPG Maker VX Ace - Thunder 4_14
+    21300030: PC Computer - RPG Maker VX Ace - Thunder 4_15
+    21300032: PC Computer - RPG Maker VX Ace - Thunder 4_16
+    21300034: PC Computer - RPG Maker VX Ace - Thunder 4_17
+    21300036: PC Computer - RPG Maker VX Ace - Thunder 4_18
+    21300038: PC Computer - RPG Maker VX Ace - Thunder 4_19
+    21300040: PC Computer - RPG Maker VX Ace - Thunder 4_20
+    21300042: PC Computer - RPG Maker VX Ace - Thunder 4_21
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -82,7 +104,447 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 775
+        width: 142
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2877dde0603224a8fb0ba87a25c931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 822
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace8a8f12cbe2b44d97b5e5704c183f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 822
+        width: 147
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676fc59ae7ab0914c87fd1cf2faf15fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 822
+        width: 120
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa393548c8aa2314cba25a2413a5d50b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_4
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 823
+        width: 60
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e9cced8e6116f4a860607b4a6669d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 632
+        width: 42
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f96b5a37e6a524d90bcaf3955feeb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 631
+        width: 147
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b24bec86e58ac2429ae46ffd51397dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_7
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 631
+        width: 166
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bd2722900ada54f8a9f8071f2f9816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_8
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 632
+        width: 143
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695726de3ebd2a641af5e646284b0360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_9
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 631
+        width: 125
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e75e9e08b252dd47badea257a67dfed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 440
+        width: 106
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83c3cddada880949a9938a346f9b05e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 438
+        width: 150
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342b597c582680848b4f7e97b840fa31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_12
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 438
+        width: 155
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e899a5e6d0ed98942b9bc025262511f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_13
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 438
+        width: 167
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d823bc0d8db9748a8f9f8e31e3f831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 439
+        width: 160
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7238737446fb064fa3c030f8ac3e0dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 248
+        width: 148
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc63479b8c233d143831a8552aacc6b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_16
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 253
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d62126dd5553194585f72c82cec5e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 224
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a006c6b266e5c614280e752884e1f18a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 217
+        width: 117
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de5bd8c4d6f74245931ad04251b8f1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_19
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 193
+        width: 135
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae755bdaa8809bc49a6783d000246fc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_20
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 195
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a33e502132fe041a2cb286f8ab7303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX Ace - Thunder 4_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 65
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b737c0b8bb7b542a9973ee7d86dae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

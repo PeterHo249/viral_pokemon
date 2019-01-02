@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 20eefac16402b6245be39eb8ffd402a9
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: PC Computer - RPG Maker VX - Thunder 2_0
+    21300002: PC Computer - RPG Maker VX - Thunder 2_3
+    21300004: PC Computer - RPG Maker VX - Thunder 2_4
+    21300006: PC Computer - RPG Maker VX - Thunder 2_5
+    21300008: PC Computer - RPG Maker VX - Thunder 2_6
+    21300010: PC Computer - RPG Maker VX - Thunder 2_9
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -82,7 +88,127 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX - Thunder 2_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 211
+        width: 147
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01009ee396c87af4099b4563e6d9b790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX - Thunder 2_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 193
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e6344ab8759c1479b87d7625d26637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX - Thunder 2_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 198
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd5399e04b43742853e44f46445338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX - Thunder 2_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 236
+        width: 139
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06183c5c16a056741b2b92cebbf54510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX - Thunder 2_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 215
+        width: 139
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e281300c4f17be46bcb591b509b9f60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker VX - Thunder 2_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 23
+        width: 167
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f260e3b1828364c9868530a85a138e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
