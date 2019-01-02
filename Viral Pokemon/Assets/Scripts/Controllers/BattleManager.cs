@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -232,12 +233,17 @@ public class BattleManager : MonoBehaviour
     {
         if (currentAI.currentHp > 0)
         {
-            int hp = currentAI.skills[0].power + currentAI.attack - currentPlayer.defense;
+            double hp = (currentAI.skills[0].power + currentAI.attack - currentPlayer.defense) * BattleManager.KyHe[currentPlayer.type[0] - 1, currentAI.skills[0].type - 1];
 
             if (hp <= 0)
                 hp = 1;
 
-            currentPlayer.currentHp -= hp;
+            hp = Math.Round(hp, 0);
+
+            Debug.Log(hp);
+
+
+            currentPlayer.currentHp -= (int) hp;
 
             if (currentPlayer.currentHp < 0)
             {

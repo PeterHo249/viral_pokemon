@@ -62,45 +62,60 @@ public class LevelManager : MonoBehaviour
     public void PrepareData()
     {
         dataLevel = new List<List<Pokemon>>();
-        dataLevel.Add(new List<Pokemon>() { Collection[0]});
-        dataLevel.Add(new List<Pokemon>() { Collection[3]});
-        dataLevel.Add(new List<Pokemon>() { Collection[6]});
-        dataLevel.Add(new List<Pokemon>() { Collection[7], Collection[8] });
-        dataLevel.Add(new List<Pokemon>() { Collection[9], Collection[10] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
-        dataLevel.Add(new List<Pokemon>() { Collection[11], Collection[12] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0].Clone(), Collection[1].Clone(), Collection[2].Clone(), Collection[3].Clone(), Collection[4].Clone(), Collection[5].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[9], Collection[10], Collection[11] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[9], Collection[10], Collection[11] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[9], Collection[10], Collection[11] });
+
+
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
+
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[3], Collection[4], Collection[5] });
+        dataLevel.Add(new List<Pokemon>() { Collection[0], Collection[1], Collection[2], Collection[6], Collection[7], Collection[8] });
+        dataLevel.Add(new List<Pokemon>() { Collection[3], Collection[4], Collection[5], Collection[6], Collection[7], Collection[8] });
 
     }
 

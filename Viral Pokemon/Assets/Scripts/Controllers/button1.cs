@@ -55,6 +55,8 @@ public class button1 : MonoBehaviour
                 battleManager.currentPlayer.skills[0].pp--;
 
                 double hp = (battleManager.currentPlayer.skills[0].power + battleManager.currentPlayer.attack - battleManager.currentAI.defense) * BattleManager.KyHe[battleManager.currentAI.type[0] - 1, battleManager.currentPlayer.skills[0].type - 1];
+
+                Debug.Log(hp);
  
                 if (hp <= 0)
                     hp = 1;
