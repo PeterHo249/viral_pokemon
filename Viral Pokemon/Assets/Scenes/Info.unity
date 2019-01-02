@@ -146,7 +146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210.9, y: -172.7}
+  m_AnchoredPosition: {x: 298.5, y: -124.5}
   m_SizeDelta: {x: 210.3, y: 37.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92100283
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 212765297}
   - component: {fileID: 212765296}
   m_Layer: 5
-  m_Name: pidgey_Text
+  m_Name: text5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 465693202}
   - component: {fileID: 465693201}
   m_Layer: 0
-  m_Name: bulbasaur
+  m_Name: pokemon1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -519,7 +519,7 @@ GameObject:
   - component: {fileID: 465770186}
   - component: {fileID: 465770185}
   m_Layer: 5
-  m_Name: maxElixir_Text
+  m_Name: textItem1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -907,7 +907,7 @@ GameObject:
   - component: {fileID: 630519153}
   - component: {fileID: 630519152}
   m_Layer: 0
-  m_Name: charmander
+  m_Name: pokemon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 660323670}
   - component: {fileID: 660323669}
   m_Layer: 5
-  m_Name: bulbasaur_Text
+  m_Name: text1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1009,7 +1009,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -101, y: 176.8}
+  m_AnchoredPosition: {x: -41, y: 140.62}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660323669
@@ -1171,7 +1171,7 @@ GameObject:
   - component: {fileID: 902069132}
   - component: {fileID: 902069131}
   m_Layer: 5
-  m_Name: squirtle_Text
+  m_Name: text3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 1184550165}
   - component: {fileID: 1184550164}
   m_Layer: 5
-  m_Name: maxPotion_Text
+  m_Name: textItem2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1448,7 +1448,7 @@ GameObject:
   - component: {fileID: 1236594121}
   - component: {fileID: 1236594120}
   m_Layer: 0
-  m_Name: pikachu
+  m_Name: pokemon6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1607,7 +1607,7 @@ GameObject:
   - component: {fileID: 1292093148}
   - component: {fileID: 1292093147}
   m_Layer: 5
-  m_Name: butterfree_Text
+  m_Name: text4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1753,6 +1753,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1361141680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1361141682}
+  - component: {fileID: 1361141681}
+  m_Layer: 0
+  m_Name: InfoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1361141681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361141680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93fba2400fca2d3459cde925e992e2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListPokemon: []
+  textPokemon: []
+  amountItems: []
+  Money: {fileID: 0}
+  player: {fileID: 0}
+--- !u!4 &1361141682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361141680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 566.73474, y: -27.975515, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395385528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,7 +1891,7 @@ GameObject:
   - component: {fileID: 1512281524}
   - component: {fileID: 1512281523}
   m_Layer: 0
-  m_Name: butterfree
+  m_Name: pokemon4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2002,7 +2050,7 @@ GameObject:
   - component: {fileID: 1634144177}
   - component: {fileID: 1634144176}
   m_Layer: 5
-  m_Name: pikachu_Text
+  m_Name: text6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2080,7 +2128,7 @@ GameObject:
   - component: {fileID: 1797428587}
   - component: {fileID: 1797428586}
   m_Layer: 0
-  m_Name: squirtle
+  m_Name: pokemon3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2502,7 +2550,7 @@ GameObject:
   - component: {fileID: 2004823879}
   - component: {fileID: 2004823878}
   m_Layer: 5
-  m_Name: charmander_Text
+  m_Name: text2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2569,6 +2617,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004823876}
   m_CullTransparentMesh: 0
+--- !u!1 &2007309661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2007309663}
+  - component: {fileID: 2007309662}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2007309662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007309661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0976b4757a354ba4d87bea10a4642e71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: 0
+--- !u!4 &2007309663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007309661}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 566.73474, y: -27.975515, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2033591836
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,7 +2672,7 @@ GameObject:
   - component: {fileID: 2033591838}
   - component: {fileID: 2033591837}
   m_Layer: 0
-  m_Name: pidgey
+  m_Name: pokemon5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
