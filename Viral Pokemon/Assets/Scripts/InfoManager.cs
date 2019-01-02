@@ -18,6 +18,7 @@ public class InfoManager : MonoBehaviour
     {
         player = FindObjectOfType<Player>();
 
+
         GameObject.Find("pokemon1").GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/Pokemons/front/" + player.ownedPokemons[0].id.ToString());
         GameObject.Find("pokemon2").GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/Pokemons/front/" + player.ownedPokemons[1].id.ToString());
         GameObject.Find("pokemon3").GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/Pokemons/front/" + player.ownedPokemons[2].id.ToString());
