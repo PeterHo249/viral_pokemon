@@ -104,8 +104,12 @@ public class Player : MonoBehaviour
         }
 
         // Money
-        dbcm.CommandText = "update PlayerInfo set Money = " + Money.ToString();
-        dbcm.ExecuteScalar();
+        if (Money > 0)
+        {
+            dbcm.CommandText = "update PlayerInfo set Money = " + Money.ToString();
+            dbcm.ExecuteScalar();
+
+        }
 
 
 

@@ -11,6 +11,12 @@ public class ButtonHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         if (level != 0)
         {
             if (level != LevelHandler.level)
@@ -26,15 +32,9 @@ public class ButtonHandler : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnButtonTapped()
     {
-        if (level > LevelHandler.level)
+        if (level != LevelHandler.level)
         {
             print("You can't play this level");
         }
