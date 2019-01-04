@@ -11,7 +11,6 @@ public class TalkObstacle : MonoBehaviour
 
     public int number;
 
-    public string talk = "Press Space to talk";
 
     public static List<Pokemon> fetch = new List<Pokemon>();
 
