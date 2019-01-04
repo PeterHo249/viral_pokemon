@@ -477,10 +477,6 @@ public class BattleManager : MonoBehaviour
         LoadData();
         MappingUI();
 
-        Debug.Log(HPBarAI.rect.width);
-        Debug.Log(HPBarPlayer.rect.width);
-        Debug.Log(HPBarPlayer.sizeDelta.x);
-        Debug.Log(HPBarAI.sizeDelta.x);
 
         MenuChooseController(false, 0);
         BonusMenuController(false);

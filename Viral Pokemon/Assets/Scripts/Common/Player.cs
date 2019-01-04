@@ -77,6 +77,53 @@ public class Player : MonoBehaviour
         }
 
         dbc.Close();
+
+        Debug.Log("Load: " + ownedItems);
+    }
+
+    void SaveData()
+    {
+        string path = "URI=file://Assets/Database/ViralPokemon.db";
+        IDbConnection dbc;
+        IDbCommand dbcm;
+
+        dbc = new SqliteConnection(path);
+        dbc.Open();
+        dbcm = dbc.CreateCommand();
+
+
+        // Save item
+        Debug.Log("Save: " + ownedItems);
+        if (ownedItems != null)
+        {
+            for (int i = 0; i < ownedItems.Count; i++)
+            {
+                dbcm.CommandText = "update ItemOfPlayer set amount = " + ownedItems[i].amount.ToString() + " where idItem = " + ownedItems[i].id.ToString();
+                dbcm.ExecuteScalar();
+            }
+        }
+
+        // Money
+        dbcm.CommandText = "update PlayerInfo set Money = " + Money.ToString();
+        dbcm.ExecuteScalar();
+
+
+
+        // Save pokemon
+
+        if (ownedPokemons != null)
+        {
+            dbcm.CommandText = "delete from PokemonOfPlayer";
+            dbcm.ExecuteNonQuery();
+
+            for (int i =0; i<ownedPokemons.Count; i++)
+            {
+                dbcm.CommandText = "insert into PokemonOfPlayer(idPokemon, level) values (" + ownedPokemons[i].id.ToString() + ", " + ownedPokemons[i].level.ToString() + ")";
+                dbcm.ExecuteNonQuery();
+            }
+        }
+
+        dbc.Close();
     }
 
 
@@ -90,5 +137,10 @@ public class Player : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnDestroy()
+    {
+        SaveData();
     }
 }
