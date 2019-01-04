@@ -137,7 +137,7 @@ public class BattleManager : MonoBehaviour
             PokemonPlayer.GetComponent<SpriteRenderer>().sprite = Resources.Load <Sprite>("Sprites/Pokemons/back/" + pokemon.id.ToString());
 
             float rate = (float)(pokemon.currentHp) / pokemon.maxHp;
-            HPBarPlayer.sizeDelta = new Vector2((float)(-595.7 - (1-rate)*208.3),HPBarPlayer.sizeDelta.y);
+            HPBarPlayer.sizeDelta = new Vector2((float)(-617 - (1 - rate) * 196), HPBarPlayer.sizeDelta.y);
             if (rate > 0.5)
             {
                 HPBarPlayer.GetComponent<Image>().color = Color.green;
@@ -161,7 +161,7 @@ public class BattleManager : MonoBehaviour
             PokemonAI.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/Pokemons/front/" + pokemon.id.ToString());
 
             float rate = (float)(pokemon.currentHp) / pokemon.maxHp;
-            HPBarAI.sizeDelta = new Vector2((float)(-595.7 - (1 - rate) * 208.3), HPBarAI.sizeDelta.y);
+            HPBarAI.sizeDelta = new Vector2((float)(-617 - (1 - rate) * 196), HPBarAI.sizeDelta.y);
             if (rate > 0.5)
             {
                 HPBarAI.GetComponent<Image>().color = Color.green;
@@ -476,6 +476,11 @@ public class BattleManager : MonoBehaviour
     {
         LoadData();
         MappingUI();
+
+        Debug.Log(HPBarAI.rect.width);
+        Debug.Log(HPBarPlayer.rect.width);
+        Debug.Log(HPBarPlayer.sizeDelta.x);
+        Debug.Log(HPBarAI.sizeDelta.x);
 
         MenuChooseController(false, 0);
         BonusMenuController(false);
