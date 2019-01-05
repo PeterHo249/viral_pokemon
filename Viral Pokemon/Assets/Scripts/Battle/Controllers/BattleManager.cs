@@ -285,7 +285,7 @@ public class BattleManager : MonoBehaviour
     public void Bonus()
     {
         System.Random rnd = new System.Random();
-        int k = rnd.Next(0,6);
+        int k = rnd.Next(0,5);
         pokemonBonus = clone[k];
         pokemonBonus.LevelUp(1);
 
@@ -470,7 +470,7 @@ public class BattleManager : MonoBehaviour
     public IEnumerator _EffectAttack(int type)
     {
         System.Random rnd = new System.Random();
-        int i = rnd.Next(0, 4);
+        int i = rnd.Next(0, 3);
         if (type == 1)
         {
             Moves[i].GetComponent<Transform>().localScale = new Vector3(5, 5, 0);

@@ -40,6 +40,18 @@ public class choose2 : MonoBehaviour
 
                 battleManager.WaitAI(1);
             }
+            if (button.GetComponentInChildren<Text>().text.Contains("Max Elixir"))
+            {
+                battleManager.currentPlayer.currentHp += battleManager.currentPlayer.maxHp / 2;
+                if (battleManager.currentPlayer.currentHp > battleManager.currentPlayer.maxHp)
+                {
+                    battleManager.currentPlayer.currentHp = battleManager.currentPlayer.maxHp;
+                }
+
+                battleManager.LoadUIPokemon(battleManager.currentPlayer, 1);
+
+                battleManager.WaitAI(1);
+            }
             battleManager.MenuController(true);
         }
         
