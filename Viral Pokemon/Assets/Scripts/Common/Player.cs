@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         ownedItems = new List<Item>();
 
         //Read Data
-        string path = "URI=file://Assets/Database/ViralPokemon.db";
+        string path = "URI=file:" + Application.streamingAssetsPath + "/ViralPokemon.db";
         IDbConnection dbc;
         IDbCommand dbcm;
         IDataReader dbr;
@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
 
     void SaveData()
     {
-        string path = "URI=file://Assets/Database/ViralPokemon.db";
+        string path = "URI=file:" + Application.streamingAssetsPath + "/ViralPokemon.db";
         IDbConnection dbc;
         IDbCommand dbcm;
 

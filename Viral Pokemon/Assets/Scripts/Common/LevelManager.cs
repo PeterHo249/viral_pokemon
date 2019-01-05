@@ -17,7 +17,7 @@ public class LevelManager : MonoBehaviour
         Collection = new List<Pokemon>();
 
         //Read Data
-        string path = "URI=file://Assets/Database/ViralPokemon.db";
+        string path = "URI=file:" + Application.streamingAssetsPath + "/ViralPokemon.db";
         IDbConnection dbc;
         IDbCommand dbcm;
         IDataReader dbr;

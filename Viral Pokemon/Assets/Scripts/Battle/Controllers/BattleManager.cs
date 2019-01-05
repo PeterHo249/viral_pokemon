@@ -341,9 +341,8 @@ public class BattleManager : MonoBehaviour
                 {
                     LevelManager.level = 0;
                     LevelHandler.level++;
-                    Debug.Log("Level map: " + LevelHandler.level);
 
-                    string path = "URI=file://Assets/Database/ViralPokemon.db";
+                    string path = "URI=file:" + Application.streamingAssetsPath + "/ViralPokemon.db";
                     IDbConnection dbc;
                     IDbCommand dbcm;
                     dbc = new SqliteConnection(path);

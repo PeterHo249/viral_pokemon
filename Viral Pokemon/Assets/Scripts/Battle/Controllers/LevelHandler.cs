@@ -10,7 +10,7 @@ public class LevelHandler : MonoBehaviour
 
     public void LoadData()
     {
-        string path = "URI=file://Assets/Database/ViralPokemon.db";
+        string path = "URI=file:" + Application.streamingAssetsPath + "/ViralPokemon.db";
         IDbConnection dbc;
         IDbCommand dbcm;
         IDataReader dbr;
@@ -33,7 +33,7 @@ public class LevelHandler : MonoBehaviour
 
     public void SaveData()
     {
-        string path = "URI=file://Assets/Database/ViralPokemon.db";
+        string path = "URI=file:" + Application.streamingAssetsPath + "/ViralPokemon.db";
         IDbConnection dbc;
         IDbCommand dbcm;
 
