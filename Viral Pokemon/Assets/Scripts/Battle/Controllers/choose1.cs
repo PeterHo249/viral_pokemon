@@ -46,7 +46,7 @@ public class choose1 : MonoBehaviour
         if (text1.text == "Switch pokemon")
         {
             battleManager.playerManager.ownedPokemons[0] = battleManager.pokemonBonus.Clone();
-            SceneManager.LoadScene("Level" + LevelHandler.level.ToString());
+            SceneManager.LoadScene("MapScene");
         }
     }
 

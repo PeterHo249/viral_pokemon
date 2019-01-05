@@ -63,13 +63,10 @@ public class LevelManager : MonoBehaviour
     {
         dataLevel = new List<List<Pokemon>>();
 
-        dataLevel.Add(new List<Pokemon>() { Collection[8].Clone() });
-        dataLevel.Add(new List<Pokemon>() { Collection[8].Clone() });
-        dataLevel.Add(new List<Pokemon>() { Collection[8].Clone() });
 
-        //dataLevel.Add(new List<Pokemon>() { Collection[0].Clone(), Collection[1].Clone(), Collection[2].Clone(), Collection[3].Clone(), Collection[4].Clone(), Collection[5].Clone() });
-        //dataLevel.Add(new List<Pokemon>() { Collection[0].Clone(), Collection[1].Clone(), Collection[2].Clone(), Collection[6].Clone(), Collection[7].Clone(), Collection[8].Clone() });
-        //dataLevel.Add(new List<Pokemon>() { Collection[3].Clone(), Collection[4].Clone(), Collection[5].Clone(), Collection[6].Clone(), Collection[7].Clone(), Collection[8].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[0].Clone(), Collection[1].Clone(), Collection[2].Clone(), Collection[3].Clone(), Collection[4].Clone(), Collection[5].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[0].Clone(), Collection[1].Clone(), Collection[2].Clone(), Collection[6].Clone(), Collection[7].Clone(), Collection[8].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[3].Clone(), Collection[4].Clone(), Collection[5].Clone(), Collection[6].Clone(), Collection[7].Clone(), Collection[8].Clone() });
 
 
         dataLevel.Add(new List<Pokemon>() { Collection[3].Clone(), Collection[4].Clone(), Collection[5].Clone(), Collection[9].Clone(), Collection[10].Clone(), Collection[11].Clone() });
@@ -109,24 +106,27 @@ public class LevelManager : MonoBehaviour
         dataLevel.Add(new List<Pokemon>() { Collection[48].Clone(), Collection[49].Clone(), Collection[50].Clone(), Collection[51].Clone(), Collection[52].Clone(), Collection[53].Clone() });
         dataLevel.Add(new List<Pokemon>() { Collection[48].Clone(), Collection[49].Clone(), Collection[50].Clone(), Collection[51].Clone(), Collection[52].Clone(), Collection[53].Clone() });
 
-        dataLevel.Add(new List<Pokemon>() { Collection[54].Clone(), Collection[55].Clone(), Collection[56].Clone() });
-        dataLevel.Add(new List<Pokemon>() { Collection[54].Clone(), Collection[55].Clone(), Collection[56].Clone() });
-        dataLevel.Add(new List<Pokemon>() { Collection[54].Clone(), Collection[55].Clone(), Collection[56].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[54].Clone(), Collection[55].Clone(), Collection[56].Clone(), Collection[56].Clone(), Collection[56].Clone(), Collection[56].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[54].Clone(), Collection[55].Clone(), Collection[56].Clone(), Collection[56].Clone(), Collection[56].Clone(), Collection[56].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[54].Clone(), Collection[55].Clone(), Collection[56].Clone(), Collection[56].Clone(), Collection[56].Clone(), Collection[56].Clone() });
 
-        dataLevel.Add(new List<Pokemon>() { Collection[57].Clone()});
-        dataLevel.Add(new List<Pokemon>() { Collection[57].Clone() });
-        dataLevel.Add(new List<Pokemon>() { Collection[57].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone(), Collection[57].Clone() });
 
-        dataLevel.Add(new List<Pokemon>() { Collection[58].Clone() });
-        dataLevel.Add(new List<Pokemon>() { Collection[58].Clone() });
-        dataLevel.Add(new List<Pokemon>() { Collection[58].Clone() });
-
-
+        dataLevel.Add(new List<Pokemon>() { Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone() });
+        dataLevel.Add(new List<Pokemon>() { Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone(), Collection[58].Clone() });
 
 
 
-
-
+        for (int i = 0; i < dataLevel.Count; i++)
+        {
+            foreach (Pokemon p in dataLevel[i])
+            {
+                p.LevelUp(i / 3);
+            }
+        }
     }
 
     // Start is called before the first frame update

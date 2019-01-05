@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         dbc = new SqliteConnection(path);
         dbc.Open();
         dbcm = dbc.CreateCommand();
-        dbcm.CommandText = "select SamplePokemon.id, SamplePokemon.name, SamplePokemon.hp, SamplePokemon.attack, SamplePokemon.defense, SamplePokemon.speed, PokemonOfPlayer.level, PokemonOfPlayer.exp from SamplePokemon, PokemonOfPlayer where SamplePokemon.id = PokemonOfPlayer.idPokemon";
+        dbcm.CommandText = "select SamplePokemon.id, SamplePokemon.name, SamplePokemon.hp, SamplePokemon.attack, SamplePokemon.defense, SamplePokemon.speed, PokemonOfPlayer.level from SamplePokemon, PokemonOfPlayer where SamplePokemon.id = PokemonOfPlayer.idPokemon";
         dbr = dbcm.ExecuteReader();
 
 

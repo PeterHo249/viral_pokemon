@@ -15,7 +15,6 @@ public class Pokemon
     public List<int> type;
     public List<PokemonSkill> skills;
     public int level;
-    public int exp;
 
     public Pokemon(int id, string name, int hp, int attack, int defense, int speed, int level)
     {
@@ -28,17 +27,31 @@ public class Pokemon
         this.level = level;
         this.skills = new List<PokemonSkill>();
         this.type = new List<int>();
-        ScaleByLevel();
-        this.currentHp = this.maxHp;
-    }
 
-    public void ScaleByLevel()
-    {
-        System.Random r = new System.Random();
         this.maxHp += (this.level - 1) * 30;
         this.attack += (this.level - 1) * 5;
         this.speed += (this.level - 1) * 5;
         this.defense += (this.level - 1) * 5;
+
+
+        this.currentHp = this.maxHp;
+    }
+
+    public void LevelUp(int k)
+    {
+        this.maxHp -= (this.level - 1) * 30;
+        this.attack -= (this.level - 1) * 5;
+        this.speed -= (this.level - 1) * 5;
+        this.defense -= (this.level - 1) * 5;
+
+        this.level += k;
+
+        this.maxHp += (this.level - 1) * 30;
+        this.attack += (this.level - 1) * 5;
+        this.speed += (this.level - 1) * 5;
+        this.defense += (this.level - 1) * 5;
+
+        this.currentHp = this.maxHp;
     }
 
     public Pokemon Clone()

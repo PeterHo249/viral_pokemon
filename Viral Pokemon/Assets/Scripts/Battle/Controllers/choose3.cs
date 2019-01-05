@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class choose3 : MonoBehaviour
@@ -26,6 +27,7 @@ public class choose3 : MonoBehaviour
 
                 battleManager.WaitAI(1);
             }
+            battleManager.MenuController(true);
         }
         if (text1.text == "Item List")
         {
@@ -38,8 +40,13 @@ public class choose3 : MonoBehaviour
 
                 battleManager.WaitAI(1);
             }
+            battleManager.MenuController(true);
         }
-        battleManager.MenuController(true);
+        if (text1.text == "Switch pokemon")
+        {
+            battleManager.playerManager.ownedPokemons[2] = battleManager.pokemonBonus.Clone();
+            SceneManager.LoadScene("MapScene");
+        }
     }
 
     void Start()

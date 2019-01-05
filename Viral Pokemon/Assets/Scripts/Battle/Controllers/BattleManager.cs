@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Mono.Data.SqliteClient;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -283,9 +285,17 @@ public class BattleManager : MonoBehaviour
     public void Bonus()
     {
         System.Random rnd = new System.Random();
-        int k = 0;
+        int k = rnd.Next(0,6);
         pokemonBonus = clone[k];
+        pokemonBonus.LevelUp(1);
+
         PokemonBonus.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/Pokemons/front/" + pokemonBonus.id.ToString());
+        playerManager.Money += 500;
+
+        for (int i = 0; i < playerManager.ownedPokemons.Count; i++ )
+        {
+            playerManager.ownedPokemons[i].LevelUp(1);
+        }
 
         MenuChooseController(true, 3);
         BonusMenuController(true);
@@ -325,18 +335,29 @@ public class BattleManager : MonoBehaviour
             {
                 BallAI.GetComponent<SpriteRenderer>().sprite = null;
                 Debug.Log("AI lose");
-                Bonus();
+
                 LevelManager.level++;
                 if (LevelManager.level == 3)
                 {
                     LevelManager.level = 0;
                     LevelHandler.level++;
-                    Debug.Log(LevelHandler.level);
-                    //SceneManager.LoadScene("MapScene");
+                    Debug.Log("Level map: " + LevelHandler.level);
+
+                    string path = "URI=file://Assets/Database/ViralPokemon.db";
+                    IDbConnection dbc;
+                    IDbCommand dbcm;
+                    dbc = new SqliteConnection(path);
+                    dbc.Open();
+                    dbcm = dbc.CreateCommand();
+                    dbcm.CommandText = "update PlayerInfo set Level = " + LevelHandler.level.ToString();
+                    dbcm.ExecuteScalar();
+                    dbc.Close();
+
+                    Bonus();
                 }
                 else
                 {
-                    //SceneManager.LoadScene("Level" + LevelHandler.level.ToString());
+                    SceneManager.LoadScene("Level" + LevelHandler.level.ToString());
                 }
                 
             }
@@ -449,7 +470,7 @@ public class BattleManager : MonoBehaviour
     public IEnumerator _EffectAttack(int type)
     {
         System.Random rnd = new System.Random();
-        int i = rnd.Next(0, 3);
+        int i = rnd.Next(0, 4);
         if (type == 1)
         {
             Moves[i].GetComponent<Transform>().localScale = new Vector3(5, 5, 0);

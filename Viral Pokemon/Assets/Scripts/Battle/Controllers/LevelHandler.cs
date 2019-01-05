@@ -42,6 +42,7 @@ public class LevelHandler : MonoBehaviour
         dbcm = dbc.CreateCommand();
 
         dbcm.CommandText = "update PlayerInfo set Level = " + level.ToString();
+        dbcm.ExecuteScalar();
 
         dbc.Close();
     }
