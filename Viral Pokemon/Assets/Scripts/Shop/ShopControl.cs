@@ -18,6 +18,10 @@ public class ShopControl : MonoBehaviour
 
     public Player playerManager;
 
+    public AudioClip choose;
+
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +34,9 @@ public class ShopControl : MonoBehaviour
 
         buyButton1 = GameObject.Find("Item1_Button").GetComponent<Button>();
         buyButton2 = GameObject.Find("Item2_Button").GetComponent<Button>();
+
+        audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource.clip = choose;
     }
 
     // Update is called once per frame
@@ -56,6 +63,7 @@ public class ShopControl : MonoBehaviour
 
     public void buyItem1()
     {
+        audioSource.Play();
         playerManager.Money -= 100;
         playerManager.ownedItems[1].amount++;
         moneyAmountText.text = playerManager.Money.ToString();
@@ -64,6 +72,7 @@ public class ShopControl : MonoBehaviour
 
     public void buyItem2()
     {
+        audioSource.Play();
         playerManager.Money -= 200;
         playerManager.ownedItems[0].amount++;
         moneyAmountText.text = playerManager.Money.ToString();

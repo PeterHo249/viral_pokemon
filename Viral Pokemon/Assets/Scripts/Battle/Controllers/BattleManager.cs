@@ -1,4 +1,5 @@
 ﻿using Mono.Data.SqliteClient;
+using Mono.Data.SqliteClient;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -36,6 +37,12 @@ public class BattleManager : MonoBehaviour
     public GameObject BonusBackground, PokemonBonus, TextBonus;
 
     public List<Pokemon> clone;
+
+    //Sounds
+    public AudioClip play;
+    public AudioClip win;
+
+    private AudioSource audioSource;
 
     // cột j đánh hàng i nhân damge A[i][j]
     public static double[,] KyHe = new double[,] { {1,1,1,1,1,1,2,1,1,1,1,1,1,0,1,1,1,1},
@@ -336,6 +343,9 @@ public class BattleManager : MonoBehaviour
                 BallAI.GetComponent<SpriteRenderer>().sprite = null;
                 Debug.Log("AI lose");
 
+                audioSource.clip = win;
+                audioSource.Play();
+
                 LevelManager.level++;
                 if (LevelManager.level == 3)
                 {
@@ -513,6 +523,9 @@ public class BattleManager : MonoBehaviour
 
         BallAI.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsAI.Count - 1];
         BallPlayer.GetComponent<SpriteRenderer>().sprite = Resources.LoadAll<Sprite>("Sprites/UI/ball")[pokemonsPlayer.Count - 1];
+
+        audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource.clip = play;
     }
 
     // Update is called once per frame
