@@ -1,5 +1,4 @@
 ﻿using Mono.Data.SqliteClient;
-using Mono.Data.SqliteClient;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -343,12 +342,13 @@ public class BattleManager : MonoBehaviour
                 BallAI.GetComponent<SpriteRenderer>().sprite = null;
                 Debug.Log("AI lose");
 
-                audioSource.clip = win;
-                audioSource.Play();
 
                 LevelManager.level++;
                 if (LevelManager.level == 3)
                 {
+                    audioSource.clip = win;
+                    audioSource.Play();
+
                     LevelManager.level = 0;
                     LevelHandler.level++;
 
